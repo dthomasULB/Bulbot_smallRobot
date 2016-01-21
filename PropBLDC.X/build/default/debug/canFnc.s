@@ -435,8 +435,16 @@ _canOrderGetObstacle:
 	mov.b	[w4],w4
 	mov.b	w4,[w14+13]
 .LSM53:
-	mov	#52429,w4
-	mov	#15820,w5
+	mov	[w14+12],w4
+	asr	w4,#15,w5
+	mov.d	w4,w0
+	rcall	___floatsisf
+	mov.d	w0,w4
+	mov	#4719,w2
+	mov	#14979,w3
+	mov.d	w4,w0
+	rcall	___mulsf3
+	mov.d	w0,w4
 	mov	w4,[w14+8]
 	mov	w5,[w14+10]
 .LSM54:

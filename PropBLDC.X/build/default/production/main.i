@@ -7201,6 +7201,10 @@ int main(void) {
                         case 0x0F:
                             trajRemoveObstacle(canOrderGetObstacle());
                             break;
+                        case 0x10:
+                            obstacle = trajIsObstacleInMap(canOrderGetObstacle());
+                            canSendObstacleType(obstacle);
+                            break;
 
                     }
                     canReceivedOrderFlag = 0;

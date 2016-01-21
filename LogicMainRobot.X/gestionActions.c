@@ -11,6 +11,7 @@
 #include "servoClap.h"
 #include "../libdspic/servo.h"
 #include "timer.h"
+#include "spio.h"
 
 
 const positionInteger clap1StartPos = {240, 150, -900};
@@ -28,7 +29,7 @@ infoActionType retourVertFct(int option);
 infoActionType demarrageVertFct(int option);
 
 actionType actionsJaune[NB_ACTIONS_JAUNE] = {{DEFAULT_ACTION, demarrageJauneFct},{DEFAULT_ACTION, clapChezNousJaune}};
-actionType actionsVert[NB_ACTIONS_VERT] =   {};//{DEFAULT_ACTION, demarrageVertFct},{DEFAULT_ACTION, retourVertFct}};//{DEFAULT_ACTION, demarrageVertFct},{DEFAULT_ACTION, Fishing},{DEFAULT_ACTION, retourVertFct}};
+actionType actionsVert[NB_ACTIONS_VERT] =   {DEFAULT_ACTION, retourVertFct};//{DEFAULT_ACTION, demarrageVertFct},{DEFAULT_ACTION, Fishing},{DEFAULT_ACTION, retourVertFct}};
 
 
 infoActionType demarrageJauneFct(int option) {
@@ -141,6 +142,7 @@ infoActionType Fishing(int option) {
                     infoAction.etapeEnCours = GOTO_FISH_END;
                     etape= GOTO_FISH_END;
                     sortirServoClap();
+                    ElectroAimant=1;
                 }
                 else  if (trajStatut == ACTION_ERREUR) {
                     infoAction.statut = ACTION_REMISE;
@@ -152,11 +154,13 @@ infoActionType Fishing(int option) {
                 if (trajStatut == ACTION_FINIE) {
                     infoAction.statut = ACTION_FINIE;
                     etape = FINI;
+                    ElectroAimant=0;
                     rentrerServoClap();
                 }
                if (trajStatut == ACTION_ERREUR) {
                     infoAction.statut = ACTION_REMISE;
                     etape = FINI;
+                    ElectroAimant=0;
                     rentrerServoClap();
                    
                 }

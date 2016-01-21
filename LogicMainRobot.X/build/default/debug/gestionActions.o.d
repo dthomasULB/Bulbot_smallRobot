@@ -11,4 +11,5 @@ basicActions.h  \
 ../libdspic/pwm.h  \
  ../libdspic/../libdspic/timers.h  \
 ../libdspic/clock.h  \
-timer.h 
+timer.h  \
+spio.h 

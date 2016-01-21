@@ -23,7 +23,7 @@
 #include "../libdspic/clock.h"
 #include "../libdspic/servo.h"
 #include <math.h>
-
+#include "communication.h"
 
 _FWDT(FWDTEN_OFF) // on désactive le Watchdog
 _FOSCSEL(FNOSC_FRC);
@@ -86,7 +86,7 @@ int main(void) {
     CanDeclarationProduction(CN_LOGIQUE*0x10, &mesureSharp, sizeof(mesureSharp));
 	ACTIVATE_CAN_INTERRUPTS = 1;
 	msTimerInit();                  // Initialisation du timer des millisecondes, n'est utilisé que pour waitXms (TODO: enlever en mêm temps que waitXms)
-
+        RadioInit();
 	while(1) {
  //           if (detectionObstacleSharp().isObstacleDetected){
  //       LED = 1;
@@ -241,7 +241,11 @@ actionType choixAction() {
 		indiceAction++;
 	}
         else{
+        // ADD pas à priori faut check !
+
         propulsionAddObstacle(detectionSharp.obstacleInfo);
+       propulsionIsObstacle(detectionSharp.obstacleInfo);
+       propIsObstacleType test =propulsionGetObstacle();
         STOPED_OBS=0;
         }
     actionChoisie = ordreActions[indiceAction-1];

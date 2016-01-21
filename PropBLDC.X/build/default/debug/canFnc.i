@@ -7085,7 +7085,7 @@ obstacleType canOrderGetObstacle(void) {
  tempINTEG.ub[0] = canReceivedData[2]; tempINTEG.ub[1] = canReceivedData[3];
  obstacle.y = 1E-3*tempINTEG.i;
  tempINTEG.ub[0] = canReceivedData[4]; tempINTEG.ub[1] = canReceivedData[5];
- obstacle.size = 0.1;
+ obstacle.size = 1E-3*tempINTEG.i;
 
     return(obstacle);
 }

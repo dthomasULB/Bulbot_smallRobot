@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../Can/CanAction.c ../libdspic/clock.c ../libdspic/pps.c ../libdspic/CanDspic.c ../libdspic/CanInterruptsDspic.c ../libdspic/servo.c ../libdspic/pwm.c ../libdspic/timers.c ../libdspic/adc.c main.c timer.c spio.c gestionActions.c gestionPropulsion.c basicActions.c servoClap.c sharp.c
+SOURCEFILES_QUOTED_IF_SPACED=../Can/CanAction.c ../libdspic/clock.c ../libdspic/pps.c ../libdspic/CanDspic.c ../libdspic/CanInterruptsDspic.c ../libdspic/servo.c ../libdspic/pwm.c ../libdspic/timers.c ../libdspic/adc.c main.c timer.c spio.c gestionActions.c gestionPropulsion.c basicActions.c servoClap.c sharp.c Communication.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1360890593/CanAction.o ${OBJECTDIR}/_ext/289022629/clock.o ${OBJECTDIR}/_ext/289022629/pps.o ${OBJECTDIR}/_ext/289022629/CanDspic.o ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o ${OBJECTDIR}/_ext/289022629/servo.o ${OBJECTDIR}/_ext/289022629/pwm.o ${OBJECTDIR}/_ext/289022629/timers.o ${OBJECTDIR}/_ext/289022629/adc.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timer.o ${OBJECTDIR}/spio.o ${OBJECTDIR}/gestionActions.o ${OBJECTDIR}/gestionPropulsion.o ${OBJECTDIR}/basicActions.o ${OBJECTDIR}/servoClap.o ${OBJECTDIR}/sharp.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1360890593/CanAction.o.d ${OBJECTDIR}/_ext/289022629/clock.o.d ${OBJECTDIR}/_ext/289022629/pps.o.d ${OBJECTDIR}/_ext/289022629/CanDspic.o.d ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o.d ${OBJECTDIR}/_ext/289022629/servo.o.d ${OBJECTDIR}/_ext/289022629/pwm.o.d ${OBJECTDIR}/_ext/289022629/timers.o.d ${OBJECTDIR}/_ext/289022629/adc.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/timer.o.d ${OBJECTDIR}/spio.o.d ${OBJECTDIR}/gestionActions.o.d ${OBJECTDIR}/gestionPropulsion.o.d ${OBJECTDIR}/basicActions.o.d ${OBJECTDIR}/servoClap.o.d ${OBJECTDIR}/sharp.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1360890593/CanAction.o ${OBJECTDIR}/_ext/289022629/clock.o ${OBJECTDIR}/_ext/289022629/pps.o ${OBJECTDIR}/_ext/289022629/CanDspic.o ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o ${OBJECTDIR}/_ext/289022629/servo.o ${OBJECTDIR}/_ext/289022629/pwm.o ${OBJECTDIR}/_ext/289022629/timers.o ${OBJECTDIR}/_ext/289022629/adc.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timer.o ${OBJECTDIR}/spio.o ${OBJECTDIR}/gestionActions.o ${OBJECTDIR}/gestionPropulsion.o ${OBJECTDIR}/basicActions.o ${OBJECTDIR}/servoClap.o ${OBJECTDIR}/sharp.o ${OBJECTDIR}/Communication.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1360890593/CanAction.o.d ${OBJECTDIR}/_ext/289022629/clock.o.d ${OBJECTDIR}/_ext/289022629/pps.o.d ${OBJECTDIR}/_ext/289022629/CanDspic.o.d ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o.d ${OBJECTDIR}/_ext/289022629/servo.o.d ${OBJECTDIR}/_ext/289022629/pwm.o.d ${OBJECTDIR}/_ext/289022629/timers.o.d ${OBJECTDIR}/_ext/289022629/adc.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/timer.o.d ${OBJECTDIR}/spio.o.d ${OBJECTDIR}/gestionActions.o.d ${OBJECTDIR}/gestionPropulsion.o.d ${OBJECTDIR}/basicActions.o.d ${OBJECTDIR}/servoClap.o.d ${OBJECTDIR}/sharp.o.d ${OBJECTDIR}/Communication.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1360890593/CanAction.o ${OBJECTDIR}/_ext/289022629/clock.o ${OBJECTDIR}/_ext/289022629/pps.o ${OBJECTDIR}/_ext/289022629/CanDspic.o ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o ${OBJECTDIR}/_ext/289022629/servo.o ${OBJECTDIR}/_ext/289022629/pwm.o ${OBJECTDIR}/_ext/289022629/timers.o ${OBJECTDIR}/_ext/289022629/adc.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timer.o ${OBJECTDIR}/spio.o ${OBJECTDIR}/gestionActions.o ${OBJECTDIR}/gestionPropulsion.o ${OBJECTDIR}/basicActions.o ${OBJECTDIR}/servoClap.o ${OBJECTDIR}/sharp.o
+OBJECTFILES=${OBJECTDIR}/_ext/1360890593/CanAction.o ${OBJECTDIR}/_ext/289022629/clock.o ${OBJECTDIR}/_ext/289022629/pps.o ${OBJECTDIR}/_ext/289022629/CanDspic.o ${OBJECTDIR}/_ext/289022629/CanInterruptsDspic.o ${OBJECTDIR}/_ext/289022629/servo.o ${OBJECTDIR}/_ext/289022629/pwm.o ${OBJECTDIR}/_ext/289022629/timers.o ${OBJECTDIR}/_ext/289022629/adc.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timer.o ${OBJECTDIR}/spio.o ${OBJECTDIR}/gestionActions.o ${OBJECTDIR}/gestionPropulsion.o ${OBJECTDIR}/basicActions.o ${OBJECTDIR}/servoClap.o ${OBJECTDIR}/sharp.o ${OBJECTDIR}/Communication.o
 
 # Source Files
-SOURCEFILES=../Can/CanAction.c ../libdspic/clock.c ../libdspic/pps.c ../libdspic/CanDspic.c ../libdspic/CanInterruptsDspic.c ../libdspic/servo.c ../libdspic/pwm.c ../libdspic/timers.c ../libdspic/adc.c main.c timer.c spio.c gestionActions.c gestionPropulsion.c basicActions.c servoClap.c sharp.c
+SOURCEFILES=../Can/CanAction.c ../libdspic/clock.c ../libdspic/pps.c ../libdspic/CanDspic.c ../libdspic/CanInterruptsDspic.c ../libdspic/servo.c ../libdspic/pwm.c ../libdspic/timers.c ../libdspic/adc.c main.c timer.c spio.c gestionActions.c gestionPropulsion.c basicActions.c servoClap.c sharp.c Communication.c
 
 
 CFLAGS=
@@ -198,6 +198,13 @@ ${OBJECTDIR}/sharp.o: sharp.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  sharp.c  -o ${OBJECTDIR}/sharp.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sharp.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -O0 -I"../CanLib" -I"." -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/sharp.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
+${OBJECTDIR}/Communication.o: Communication.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/Communication.o.d 
+	@${RM} ${OBJECTDIR}/Communication.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  Communication.c  -o ${OBJECTDIR}/Communication.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/Communication.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -O0 -I"../CanLib" -I"." -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/Communication.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 else
 ${OBJECTDIR}/_ext/1360890593/CanAction.o: ../Can/CanAction.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1360890593 
@@ -317,6 +324,13 @@ ${OBJECTDIR}/sharp.o: sharp.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/sharp.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  sharp.c  -o ${OBJECTDIR}/sharp.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sharp.o.d"        -g -omf=elf -O0 -I"../CanLib" -I"." -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/sharp.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/Communication.o: Communication.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/Communication.o.d 
+	@${RM} ${OBJECTDIR}/Communication.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  Communication.c  -o ${OBJECTDIR}/Communication.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/Communication.o.d"        -g -omf=elf -O0 -I"../CanLib" -I"." -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/Communication.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 endif
 
