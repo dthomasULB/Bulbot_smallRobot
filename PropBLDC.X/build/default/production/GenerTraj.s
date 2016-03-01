@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\GenerTraj.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\GenerTraj.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -1112,7 +1112,7 @@ _trajAddObstacle:
 	sl	w4,#3,w5
 	mov	#_dkNodes+4,w4
 	add	w5,w4,w4
-	mov	#2,w5
+	mov	#3,w5
 	mov	w5,[w4]
 .L18:
 .LSM48:
@@ -1219,9 +1219,9 @@ _trajRemoveObstacle:
 	mov	#_dkNodes,w4
 	add	w5,w4,w4
 	mov	[w4],w4
-	sub	w4,#2,[w15]
+	sub	w4,#3,[w15]
 	.set ___BP___,0
-	bra	z,.L24
+	bra	nz,.L24
 .LSM61:
 	mov.b	[w14+4],w4
 	se	w4,w4
@@ -3118,7 +3118,7 @@ _findTrajectoire:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0xa07
+	.4byte	0xa4a
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -3126,8 +3126,9 @@ _findTrajectoire:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"GenerTraj.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -3139,7 +3140,7 @@ _findTrajectoire:
 	.byte	0x2
 	.byte	0x2
 	.byte	0x34
-	.4byte	0x11f
+	.4byte	0x162
 	.uleb128 0x4
 	.asciz	"PROP_IS_NO_OBSTACLE"
 	.sleb128 0
@@ -3154,17 +3155,17 @@ _findTrajectoire:
 	.asciz	"propIsObstacleType"
 	.byte	0x2
 	.byte	0x38
-	.4byte	0xc8
+	.4byte	0x10b
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x2
 	.byte	0x3a
-	.4byte	0x169
+	.4byte	0x1ac
 	.uleb128 0x7
 	.asciz	"x"
 	.byte	0x2
 	.byte	0x3b
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -3172,7 +3173,7 @@ _findTrajectoire:
 	.asciz	"y"
 	.byte	0x2
 	.byte	0x3c
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -3180,7 +3181,7 @@ _findTrajectoire:
 	.asciz	"size"
 	.byte	0x2
 	.byte	0x3d
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -3193,17 +3194,17 @@ _findTrajectoire:
 	.asciz	"obstacleType"
 	.byte	0x2
 	.byte	0x3e
-	.4byte	0x139
+	.4byte	0x17c
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x3
 	.byte	0x6
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.uleb128 0x7
 	.asciz	"x"
 	.byte	0x3
 	.byte	0x7
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -3211,7 +3212,7 @@ _findTrajectoire:
 	.asciz	"y"
 	.byte	0x3
 	.byte	0x8
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -3219,7 +3220,7 @@ _findTrajectoire:
 	.asciz	"alpha"
 	.byte	0x3
 	.byte	0x9
-	.4byte	0x169
+	.4byte	0x1ac
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -3228,17 +3229,17 @@ _findTrajectoire:
 	.asciz	"absolutePosType"
 	.byte	0x3
 	.byte	0xa
-	.4byte	0x186
+	.4byte	0x1c9
 	.uleb128 0x6
 	.byte	0x3
 	.byte	0x4
 	.byte	0x7
-	.4byte	0x1fd
+	.4byte	0x240
 	.uleb128 0x7
 	.asciz	"a"
 	.byte	0x4
 	.byte	0x8
-	.4byte	0x1fd
+	.4byte	0x240
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -3246,7 +3247,7 @@ _findTrajectoire:
 	.asciz	"b"
 	.byte	0x4
 	.byte	0x9
-	.4byte	0x1fd
+	.4byte	0x240
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x1
@@ -3254,7 +3255,7 @@ _findTrajectoire:
 	.asciz	"dir"
 	.byte	0x4
 	.byte	0xa
-	.4byte	0x1fd
+	.4byte	0x240
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -3267,12 +3268,12 @@ _findTrajectoire:
 	.asciz	"mapPosType"
 	.byte	0x4
 	.byte	0xb
-	.4byte	0x1ce
+	.4byte	0x211
 	.uleb128 0x3
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2e
-	.4byte	0x241
+	.4byte	0x284
 	.uleb128 0x4
 	.asciz	"UNPR"
 	.sleb128 0
@@ -3290,17 +3291,17 @@ _findTrajectoire:
 	.asciz	"tileStatusType"
 	.byte	0x1
 	.byte	0x33
-	.4byte	0x217
+	.4byte	0x25a
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x1
 	.byte	0x35
-	.4byte	0x298
+	.4byte	0x2db
 	.uleb128 0x7
 	.asciz	"d"
 	.byte	0x1
 	.byte	0x36
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -3308,7 +3309,7 @@ _findTrajectoire:
 	.asciz	"dir"
 	.byte	0x1
 	.byte	0x37
-	.4byte	0x1fd
+	.4byte	0x240
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -3316,7 +3317,7 @@ _findTrajectoire:
 	.asciz	"done"
 	.byte	0x1
 	.byte	0x38
-	.4byte	0x241
+	.4byte	0x284
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -3324,7 +3325,7 @@ _findTrajectoire:
 	.asciz	"prec"
 	.byte	0x1
 	.byte	0x39
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x6
@@ -3333,7 +3334,7 @@ _findTrajectoire:
 	.asciz	"dijkstra_st"
 	.byte	0x1
 	.byte	0x3a
-	.4byte	0x257
+	.4byte	0x29a
 	.uleb128 0x8
 	.byte	0x1
 	.asciz	"trajInit"
@@ -3344,12 +3345,12 @@ _findTrajectoire:
 	.4byte	.LFE0
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x2d4
+	.4byte	0x317
 	.uleb128 0x9
 	.asciz	"i"
 	.byte	0x1
 	.byte	0x49
-	.4byte	0x2d4
+	.4byte	0x317
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3364,17 +3365,17 @@ _findTrajectoire:
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
-	.4byte	0x205
+	.4byte	0x248
 	.4byte	.LFB1
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x323
+	.4byte	0x366
 	.uleb128 0xb
 	.asciz	"rpPos"
 	.byte	0x1
 	.byte	0x54
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3382,7 +3383,7 @@ _findTrajectoire:
 	.asciz	"mpPos"
 	.byte	0x1
 	.byte	0x55
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3393,17 +3394,17 @@ _findTrajectoire:
 	.byte	0x1
 	.byte	0x62
 	.byte	0x1
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.4byte	.LFB2
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x362
+	.4byte	0x3a5
 	.uleb128 0xb
 	.asciz	"mpPos"
 	.byte	0x1
 	.byte	0x62
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -3411,7 +3412,7 @@ _findTrajectoire:
 	.asciz	"rpPos"
 	.byte	0x1
 	.byte	0x63
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3422,17 +3423,17 @@ _findTrajectoire:
 	.byte	0x1
 	.byte	0x6b
 	.byte	0x1
-	.4byte	0x169
+	.4byte	0x1ac
 	.4byte	.LFB3
 	.4byte	.LFE3
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x3a8
+	.4byte	0x3eb
 	.uleb128 0xb
 	.asciz	"rpP0"
 	.byte	0x1
 	.byte	0x6b
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3440,7 +3441,7 @@ _findTrajectoire:
 	.asciz	"rpP1"
 	.byte	0x1
 	.byte	0x6b
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 -18
@@ -3455,12 +3456,12 @@ _findTrajectoire:
 	.4byte	.LFE4
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x3da
+	.4byte	0x41d
 	.uleb128 0x9
 	.asciz	"i"
 	.byte	0x1
 	.byte	0x71
-	.4byte	0x2d4
+	.4byte	0x317
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3475,12 +3476,12 @@ _findTrajectoire:
 	.4byte	.LFE5
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x407
+	.4byte	0x44a
 	.uleb128 0xc
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0x7d
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3495,12 +3496,12 @@ _findTrajectoire:
 	.4byte	.LFE6
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x47b
+	.4byte	0x4be
 	.uleb128 0xc
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0x81
-	.4byte	0x172
+	.4byte	0x1b5
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 22
@@ -3508,7 +3509,7 @@ _findTrajectoire:
 	.asciz	"a"
 	.byte	0x1
 	.byte	0x82
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3516,7 +3517,7 @@ _findTrajectoire:
 	.asciz	"b"
 	.byte	0x1
 	.byte	0x82
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3524,7 +3525,7 @@ _findTrajectoire:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x83
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3532,7 +3533,7 @@ _findTrajectoire:
 	.4byte	.LASF3
 	.byte	0x1
 	.byte	0x83
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 7
@@ -3540,7 +3541,7 @@ _findTrajectoire:
 	.asciz	"tmp"
 	.byte	0x1
 	.byte	0x84
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -3555,12 +3556,12 @@ _findTrajectoire:
 	.4byte	.LFE7
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4f2
+	.4byte	0x535
 	.uleb128 0xc
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0x95
-	.4byte	0x172
+	.4byte	0x1b5
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 22
@@ -3568,7 +3569,7 @@ _findTrajectoire:
 	.asciz	"a"
 	.byte	0x1
 	.byte	0x96
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3576,7 +3577,7 @@ _findTrajectoire:
 	.asciz	"b"
 	.byte	0x1
 	.byte	0x96
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3584,7 +3585,7 @@ _findTrajectoire:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x97
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3592,7 +3593,7 @@ _findTrajectoire:
 	.4byte	.LASF3
 	.byte	0x1
 	.byte	0x97
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 7
@@ -3600,7 +3601,7 @@ _findTrajectoire:
 	.asciz	"tmp"
 	.byte	0x1
 	.byte	0x98
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -3611,17 +3612,17 @@ _findTrajectoire:
 	.byte	0x1
 	.byte	0xa9
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB8
 	.4byte	.LFE8
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5bb
+	.4byte	0x5fe
 	.uleb128 0xc
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0xa9
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 20
@@ -3629,7 +3630,7 @@ _findTrajectoire:
 	.4byte	.LASF4
 	.byte	0x1
 	.byte	0xa9
-	.4byte	0x5bb
+	.4byte	0x5fe
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 22
@@ -3637,7 +3638,7 @@ _findTrajectoire:
 	.asciz	"a"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 14
@@ -3645,7 +3646,7 @@ _findTrajectoire:
 	.asciz	"b"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 16
@@ -3653,7 +3654,7 @@ _findTrajectoire:
 	.asciz	"i"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 18
@@ -3661,7 +3662,7 @@ _findTrajectoire:
 	.asciz	"minA"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3669,7 +3670,7 @@ _findTrajectoire:
 	.asciz	"maxA"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3677,7 +3678,7 @@ _findTrajectoire:
 	.asciz	"minB"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3685,7 +3686,7 @@ _findTrajectoire:
 	.asciz	"maxB"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -3693,7 +3694,7 @@ _findTrajectoire:
 	.asciz	"dA"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -3701,7 +3702,7 @@ _findTrajectoire:
 	.asciz	"dB"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -3709,31 +3710,31 @@ _findTrajectoire:
 	.asciz	"nb"
 	.byte	0x1
 	.byte	0xaa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
 	.byte	0x0
 	.uleb128 0xe
 	.byte	0x2
-	.4byte	0xc1
+	.4byte	0x104
 	.uleb128 0xa
 	.byte	0x1
 	.asciz	"findNextNode"
 	.byte	0x1
 	.byte	0xc3
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB9
 	.4byte	.LFE9
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5fe
+	.4byte	0x641
 	.uleb128 0x9
 	.asciz	"i"
 	.byte	0x1
 	.byte	0xc4
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3741,7 +3742,7 @@ _findTrajectoire:
 	.asciz	"j"
 	.byte	0x1
 	.byte	0xc4
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3752,17 +3753,17 @@ _findTrajectoire:
 	.byte	0x1
 	.byte	0xd5
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB10
 	.4byte	.LFE10
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x635
+	.4byte	0x678
 	.uleb128 0xb
 	.asciz	"b"
 	.byte	0x1
 	.byte	0xd5
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3770,7 +3771,7 @@ _findTrajectoire:
 	.asciz	"a"
 	.byte	0x1
 	.byte	0xd5
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3785,12 +3786,12 @@ _findTrajectoire:
 	.4byte	.LFE11
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x6dc
+	.4byte	0x71f
 	.uleb128 0xb
 	.asciz	"neigbour"
 	.byte	0x1
 	.byte	0xf9
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -3798,7 +3799,7 @@ _findTrajectoire:
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0xf9
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 14
@@ -3806,7 +3807,7 @@ _findTrajectoire:
 	.asciz	"endNode"
 	.byte	0x1
 	.byte	0xf9
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 16
@@ -3814,7 +3815,7 @@ _findTrajectoire:
 	.asciz	"a1"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3822,7 +3823,7 @@ _findTrajectoire:
 	.asciz	"b1"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3830,7 +3831,7 @@ _findTrajectoire:
 	.asciz	"a2"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -3838,7 +3839,7 @@ _findTrajectoire:
 	.asciz	"b2"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -3846,7 +3847,7 @@ _findTrajectoire:
 	.asciz	"dir"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -3854,7 +3855,7 @@ _findTrajectoire:
 	.asciz	"dist"
 	.byte	0x1
 	.byte	0xfa
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3865,17 +3866,17 @@ _findTrajectoire:
 	.byte	0x1
 	.2byte	0x120
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB12
 	.4byte	.LFE12
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x7a3
+	.4byte	0x7e6
 	.uleb128 0x10
 	.asciz	"mpStart"
 	.byte	0x1
 	.2byte	0x120
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 30
@@ -3883,7 +3884,7 @@ _findTrajectoire:
 	.asciz	"mpEnd"
 	.byte	0x1
 	.2byte	0x120
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 34
@@ -3891,7 +3892,7 @@ _findTrajectoire:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x120
-	.4byte	0x7a3
+	.4byte	0x7e6
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 38
@@ -3899,7 +3900,7 @@ _findTrajectoire:
 	.4byte	.LASF0
 	.byte	0x1
 	.2byte	0x121
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -3907,7 +3908,7 @@ _findTrajectoire:
 	.asciz	"startNode"
 	.byte	0x1
 	.2byte	0x122
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -3915,7 +3916,7 @@ _findTrajectoire:
 	.asciz	"endNode"
 	.byte	0x1
 	.2byte	0x123
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -3923,7 +3924,7 @@ _findTrajectoire:
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x124
-	.4byte	0x7a9
+	.4byte	0x7ec
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -3931,7 +3932,7 @@ _findTrajectoire:
 	.asciz	"i"
 	.byte	0x1
 	.2byte	0x125
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -3939,7 +3940,7 @@ _findTrajectoire:
 	.asciz	"nb"
 	.byte	0x1
 	.2byte	0x125
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -3947,19 +3948,19 @@ _findTrajectoire:
 	.asciz	"mpTmp"
 	.byte	0x1
 	.2byte	0x126
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 26
 	.byte	0x0
 	.uleb128 0xe
 	.byte	0x2
-	.4byte	0x205
+	.4byte	0x248
 	.uleb128 0x14
-	.4byte	0xc1
-	.4byte	0x7b9
+	.4byte	0x104
+	.4byte	0x7fc
 	.uleb128 0x15
-	.4byte	0x2d4
+	.4byte	0x317
 	.byte	0x7
 	.byte	0x0
 	.uleb128 0xf
@@ -3968,17 +3969,17 @@ _findTrajectoire:
 	.byte	0x1
 	.2byte	0x168
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB13
 	.4byte	.LFE13
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x87a
+	.4byte	0x8bd
 	.uleb128 0x10
 	.asciz	"rpStart"
 	.byte	0x1
 	.2byte	0x168
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -3986,7 +3987,7 @@ _findTrajectoire:
 	.asciz	"rpEnd"
 	.byte	0x1
 	.2byte	0x168
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 -18
@@ -3994,7 +3995,7 @@ _findTrajectoire:
 	.asciz	"pathSize"
 	.byte	0x1
 	.2byte	0x168
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 20
@@ -4002,7 +4003,7 @@ _findTrajectoire:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x168
-	.4byte	0x7a3
+	.4byte	0x7e6
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 22
@@ -4010,7 +4011,7 @@ _findTrajectoire:
 	.asciz	"rpPath"
 	.byte	0x1
 	.2byte	0x168
-	.4byte	0x87a
+	.4byte	0x8bd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 -20
@@ -4018,7 +4019,7 @@ _findTrajectoire:
 	.asciz	"i"
 	.byte	0x1
 	.2byte	0x169
-	.4byte	0x2d4
+	.4byte	0x317
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -4026,7 +4027,7 @@ _findTrajectoire:
 	.asciz	"length"
 	.byte	0x1
 	.2byte	0x16a
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -4034,7 +4035,7 @@ _findTrajectoire:
 	.asciz	"curDir"
 	.byte	0x1
 	.2byte	0x16b
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -4042,31 +4043,31 @@ _findTrajectoire:
 	.asciz	"newDir"
 	.byte	0x1
 	.2byte	0x16b
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
 	.byte	0x0
 	.uleb128 0xe
 	.byte	0x2
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.uleb128 0xf
 	.byte	0x1
 	.asciz	"trajIsObstacleInMap"
 	.byte	0x1
 	.2byte	0x189
 	.byte	0x1
-	.4byte	0x11f
+	.4byte	0x162
 	.4byte	.LFB14
 	.4byte	.LFE14
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x8de
+	.4byte	0x921
 	.uleb128 0x11
 	.4byte	.LASF1
 	.byte	0x1
 	.2byte	0x189
-	.4byte	0x172
+	.4byte	0x1b5
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 16
@@ -4074,7 +4075,7 @@ _findTrajectoire:
 	.asciz	"mpPoint"
 	.byte	0x1
 	.2byte	0x18a
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -4082,7 +4083,7 @@ _findTrajectoire:
 	.asciz	"tmp"
 	.byte	0x1
 	.2byte	0x18c
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -4093,17 +4094,17 @@ _findTrajectoire:
 	.byte	0x1
 	.2byte	0x19e
 	.byte	0x1
-	.4byte	0xc1
+	.4byte	0x104
 	.4byte	.LFB15
 	.4byte	.LFE15
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x988
+	.4byte	0x9cb
 	.uleb128 0x10
 	.asciz	"rpStart"
 	.byte	0x1
 	.2byte	0x19e
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x3
 	.byte	0x7e
 	.sleb128 608
@@ -4111,7 +4112,7 @@ _findTrajectoire:
 	.asciz	"rpEnd"
 	.byte	0x1
 	.2byte	0x19e
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 -18
@@ -4119,7 +4120,7 @@ _findTrajectoire:
 	.asciz	"rpPath"
 	.byte	0x1
 	.2byte	0x19e
-	.4byte	0x87a
+	.4byte	0x8bd
 	.byte	0x3
 	.byte	0x7e
 	.sleb128 620
@@ -4127,7 +4128,7 @@ _findTrajectoire:
 	.asciz	"mpStart"
 	.byte	0x1
 	.2byte	0x19f
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -4135,7 +4136,7 @@ _findTrajectoire:
 	.asciz	"mpEnd"
 	.byte	0x1
 	.2byte	0x19f
-	.4byte	0x205
+	.4byte	0x248
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 5
@@ -4143,7 +4144,7 @@ _findTrajectoire:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x1a0
-	.4byte	0x988
+	.4byte	0x9cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -4151,53 +4152,53 @@ _findTrajectoire:
 	.asciz	"trajLength"
 	.byte	0x1
 	.2byte	0x1a1
-	.4byte	0xc1
+	.4byte	0x104
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
 	.byte	0x0
 	.uleb128 0x14
-	.4byte	0x205
-	.4byte	0x998
+	.4byte	0x248
+	.4byte	0x9db
 	.uleb128 0x15
-	.4byte	0x2d4
+	.4byte	0x317
 	.byte	0xc7
 	.byte	0x0
 	.uleb128 0x14
-	.4byte	0x298
-	.4byte	0x9a9
+	.4byte	0x2db
+	.4byte	0x9ec
 	.uleb128 0x16
-	.4byte	0x2d4
+	.4byte	0x317
 	.2byte	0x257
 	.byte	0x0
 	.uleb128 0x17
 	.asciz	"dkNodes"
 	.byte	0x1
 	.byte	0x3d
-	.4byte	0x998
+	.4byte	0x9db
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x241
-	.4byte	0x9cb
+	.4byte	0x284
+	.4byte	0xa0e
 	.uleb128 0x16
-	.4byte	0x2d4
+	.4byte	0x317
 	.2byte	0x257
 	.byte	0x0
 	.uleb128 0x18
 	.4byte	.LASF6
 	.byte	0x5
 	.byte	0x1
-	.4byte	0x9d8
+	.4byte	0xa1b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x19
-	.4byte	0x9ba
+	.4byte	0x9fd
 	.uleb128 0x1a
 	.asciz	"dkNodes"
 	.byte	0x1
 	.byte	0x3d
-	.4byte	0x998
+	.4byte	0x9db
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -4206,13 +4207,13 @@ _findTrajectoire:
 	.4byte	.LASF6
 	.byte	0x5
 	.byte	0x1
-	.4byte	0xa05
+	.4byte	0xa48
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_initialMap
 	.uleb128 0x19
-	.4byte	0x9ba
+	.4byte	0x9fd
 	.byte	0x0
 	.section	.debug_abbrev,info
 	.uleb128 0x1
@@ -4617,60 +4618,60 @@ _findTrajectoire:
 	.4byte	0x13a
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0xa0b
-	.4byte	0x2ab
+	.4byte	0xa4e
+	.4byte	0x2ee
 	.asciz	"trajInit"
-	.4byte	0x2e4
+	.4byte	0x327
 	.asciz	"RPtoMP"
-	.4byte	0x323
+	.4byte	0x366
 	.asciz	"MPtoRP"
-	.4byte	0x362
+	.4byte	0x3a5
 	.asciz	"computeSegAngle"
-	.4byte	0x3a8
+	.4byte	0x3eb
 	.asciz	"resetDijkstraVect"
-	.4byte	0x3da
+	.4byte	0x41d
 	.asciz	"deleteNode"
-	.4byte	0x407
+	.4byte	0x44a
 	.asciz	"trajAddObstacle"
-	.4byte	0x47b
+	.4byte	0x4be
 	.asciz	"trajRemoveObstacle"
-	.4byte	0x4f2
+	.4byte	0x535
 	.asciz	"findNeigbours"
-	.4byte	0x5c1
+	.4byte	0x604
 	.asciz	"findNextNode"
-	.4byte	0x5fe
+	.4byte	0x641
 	.asciz	"atanMP"
-	.4byte	0x635
+	.4byte	0x678
 	.asciz	"updateDistance"
-	.4byte	0x6dc
+	.4byte	0x71f
 	.asciz	"findPath"
-	.4byte	0x7b9
+	.4byte	0x7fc
 	.asciz	"convertPath"
-	.4byte	0x880
+	.4byte	0x8c3
 	.asciz	"trajIsObstacleInMap"
-	.4byte	0x8de
+	.4byte	0x921
 	.asciz	"findTrajectoire"
-	.4byte	0x9dd
+	.4byte	0xa20
 	.asciz	"dkNodes"
-	.4byte	0x9f3
+	.4byte	0xa36
 	.asciz	"initialMap"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x7c
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0xa0b
-	.4byte	0x11f
+	.4byte	0xa4e
+	.4byte	0x162
 	.asciz	"propIsObstacleType"
-	.4byte	0x172
+	.4byte	0x1b5
 	.asciz	"obstacleType"
-	.4byte	0x1b7
+	.4byte	0x1fa
 	.asciz	"absolutePosType"
-	.4byte	0x205
+	.4byte	0x248
 	.asciz	"mapPosType"
-	.4byte	0x241
+	.4byte	0x284
 	.asciz	"tileStatusType"
-	.4byte	0x298
+	.4byte	0x2db
 	.asciz	"dijkstra_st"
 	.4byte	0x0
 	.section	.debug_aranges,info

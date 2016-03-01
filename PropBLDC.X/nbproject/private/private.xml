@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/PropBLDC.X/main.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/PropBLDC.X/GenerTraj.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/PropBLDC.X/2015_2.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/PropBLDC.X/GenerTraj.h</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/globals.h</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/mouvements.c</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/consigne.c</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/main.c</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/Regulator.c</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/BLDC.c</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/PropBLDC.X/GenerTraj.c</file>
         </group>
     </open-files>
 </project-private>

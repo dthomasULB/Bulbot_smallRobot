@@ -19,7 +19,7 @@
 #define NB_ACTIONS_JAUNE    (2)
 extern actionType actionsJaune[NB_ACTIONS_JAUNE];
 
-#define NB_ACTIONS_VERT    (3)
+#define NB_ACTIONS_VERT    (6)
 extern actionType actionsVert[NB_ACTIONS_VERT];
 
 
@@ -34,4 +34,8 @@ infoActionType Fishing(int option);
 infoActionType demarrageVertFct3(int option);
 //infoActionType porteChezNousVert(int option);
  
+infoActionType TestArriere(int option);
+infoActionType TestAvant(int option);
+
+
 #endif

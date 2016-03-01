@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\consigne.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\consigne.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -1537,7 +1537,7 @@ _csgCompute:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x40f
+	.4byte	0x452
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -1545,8 +1545,9 @@ _csgCompute:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"consigne.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -1562,12 +1563,12 @@ _csgCompute:
 	.byte	0x8
 	.byte	0x2
 	.byte	0xc
-	.4byte	0xf1
+	.4byte	0x134
 	.uleb128 0x4
 	.asciz	"l"
 	.byte	0x2
 	.byte	0xd
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1575,7 +1576,7 @@ _csgCompute:
 	.asciz	"r"
 	.byte	0x2
 	.byte	0xe
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1584,12 +1585,12 @@ _csgCompute:
 	.asciz	"relativePosType"
 	.byte	0x2
 	.byte	0xf
-	.4byte	0xd0
+	.4byte	0x113
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x3
 	.byte	0x7
-	.4byte	0x12d
+	.4byte	0x170
 	.uleb128 0x7
 	.asciz	"CSG_STANDING"
 	.sleb128 0
@@ -1601,24 +1602,24 @@ _csgCompute:
 	.asciz	"csgStatusType"
 	.byte	0x3
 	.byte	0xa
-	.4byte	0x108
+	.4byte	0x14b
 	.uleb128 0x8
 	.byte	0x1
 	.asciz	"csgInit"
 	.byte	0x1
 	.byte	0x14
 	.byte	0x1
-	.4byte	0x12d
+	.4byte	0x170
 	.4byte	.LFB0
 	.4byte	.LFE0
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x184
+	.4byte	0x1c7
 	.uleb128 0x9
 	.asciz	"nomVel"
 	.byte	0x1
 	.byte	0x14
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1626,7 +1627,7 @@ _csgCompute:
 	.asciz	"nomAcc"
 	.byte	0x1
 	.byte	0x14
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -1641,12 +1642,12 @@ _csgCompute:
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x1ba
+	.4byte	0x1fd
 	.uleb128 0x9
 	.asciz	"finalPos"
 	.byte	0x1
 	.byte	0x27
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1661,12 +1662,12 @@ _csgCompute:
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x1ec
+	.4byte	0x22f
 	.uleb128 0x9
 	.asciz	"nomAcc"
 	.byte	0x1
 	.byte	0x2e
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1681,12 +1682,12 @@ _csgCompute:
 	.4byte	.LFE3
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x21e
+	.4byte	0x261
 	.uleb128 0x9
 	.asciz	"nomVel"
 	.byte	0x1
 	.byte	0x3e
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1697,7 +1698,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x4c
 	.byte	0x1
-	.4byte	0xf1
+	.4byte	0x134
 	.4byte	.LFB4
 	.4byte	.LFE4
 	.byte	0x1
@@ -1708,7 +1709,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x51
 	.byte	0x1
-	.4byte	0xf1
+	.4byte	0x134
 	.4byte	.LFB5
 	.4byte	.LFE5
 	.byte	0x1
@@ -1719,7 +1720,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x56
 	.byte	0x1
-	.4byte	0xf1
+	.4byte	0x134
 	.4byte	.LFB6
 	.4byte	.LFE6
 	.byte	0x1
@@ -1730,7 +1731,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x5b
 	.byte	0x1
-	.4byte	0xf1
+	.4byte	0x134
 	.4byte	.LFB7
 	.4byte	.LFE7
 	.byte	0x1
@@ -1741,7 +1742,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x60
 	.byte	0x1
-	.4byte	0xf1
+	.4byte	0x134
 	.4byte	.LFB8
 	.4byte	.LFE8
 	.byte	0x1
@@ -1752,7 +1753,7 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x65
 	.byte	0x1
-	.4byte	0x12d
+	.4byte	0x170
 	.4byte	.LFB9
 	.4byte	.LFE9
 	.byte	0x1
@@ -1763,17 +1764,17 @@ _csgCompute:
 	.byte	0x1
 	.byte	0x69
 	.byte	0x1
-	.4byte	0x12d
+	.4byte	0x170
 	.4byte	.LFB10
 	.4byte	.LFE10
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x339
+	.4byte	0x37c
 	.uleb128 0xc
 	.asciz	"tmp"
 	.byte	0x1
 	.byte	0x6a
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -1781,7 +1782,7 @@ _csgCompute:
 	.asciz	"acc"
 	.byte	0x1
 	.byte	0x6b
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1789,7 +1790,7 @@ _csgCompute:
 	.asciz	"sqrVel"
 	.byte	0x1
 	.byte	0x6c
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -1797,7 +1798,7 @@ _csgCompute:
 	.asciz	"state"
 	.byte	0x1
 	.byte	0x6d
-	.4byte	0x12d
+	.4byte	0x170
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -1806,56 +1807,56 @@ _csgCompute:
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0xa
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0xb
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0xc
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF3
 	.byte	0x1
 	.byte	0xd
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF4
 	.byte	0x1
 	.byte	0xe
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF5
 	.byte	0x1
 	.byte	0xf
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.4byte	.LASF6
 	.byte	0x1
 	.byte	0x10
-	.4byte	0x12d
+	.4byte	0x170
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xe
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0xa
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1864,7 +1865,7 @@ _csgCompute:
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0xb
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1873,7 +1874,7 @@ _csgCompute:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0xc
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1882,7 +1883,7 @@ _csgCompute:
 	.4byte	.LASF3
 	.byte	0x1
 	.byte	0xd
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1891,7 +1892,7 @@ _csgCompute:
 	.4byte	.LASF4
 	.byte	0x1
 	.byte	0xe
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1900,7 +1901,7 @@ _csgCompute:
 	.4byte	.LASF5
 	.byte	0x1
 	.byte	0xf
-	.4byte	0xf1
+	.4byte	0x134
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1909,7 +1910,7 @@ _csgCompute:
 	.4byte	.LASF6
 	.byte	0x1
 	.byte	0x10
-	.4byte	0x12d
+	.4byte	0x170
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -2149,52 +2150,52 @@ _csgCompute:
 	.4byte	0x129
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x413
-	.4byte	0x142
+	.4byte	0x456
+	.4byte	0x185
 	.asciz	"csgInit"
-	.4byte	0x184
+	.4byte	0x1c7
 	.asciz	"csgSetFinalPos"
-	.4byte	0x1ba
+	.4byte	0x1fd
 	.asciz	"csgSetNomAcc"
-	.4byte	0x1ec
+	.4byte	0x22f
 	.asciz	"csgSetNomVel"
-	.4byte	0x21e
+	.4byte	0x261
 	.asciz	"csgGetVel"
-	.4byte	0x23b
+	.4byte	0x27e
 	.asciz	"csgGetPos"
-	.4byte	0x258
+	.4byte	0x29b
 	.asciz	"csgGetNomVel"
-	.4byte	0x278
+	.4byte	0x2bb
 	.asciz	"csgGetNomAcc"
-	.4byte	0x298
+	.4byte	0x2db
 	.asciz	"csgGetFinalPos"
-	.4byte	0x2ba
+	.4byte	0x2fd
 	.asciz	"csgGetState"
-	.4byte	0x2d9
+	.4byte	0x31c
 	.asciz	"csgCompute"
-	.4byte	0x394
+	.4byte	0x3d7
 	.asciz	"prCsgPos"
-	.4byte	0x3a6
+	.4byte	0x3e9
 	.asciz	"prCsgFinalPos"
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.asciz	"prCsgVel"
-	.4byte	0x3ca
+	.4byte	0x40d
 	.asciz	"prCsgNomVel"
-	.4byte	0x3dc
+	.4byte	0x41f
 	.asciz	"prCsgNomAcc"
-	.4byte	0x3ee
+	.4byte	0x431
 	.asciz	"prMinDist"
-	.4byte	0x400
+	.4byte	0x443
 	.asciz	"prCsgStatus"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x34
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x413
-	.4byte	0xf1
+	.4byte	0x456
+	.4byte	0x134
 	.asciz	"relativePosType"
-	.4byte	0x12d
+	.4byte	0x170
 	.asciz	"csgStatusType"
 	.4byte	0x0
 	.section	.debug_aranges,info

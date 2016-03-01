@@ -120,10 +120,6 @@ int main(void) {
                         case PROP_REMOVE_OBSTACLE:
                             trajRemoveObstacle(canOrderGetObstacle());
                             break;
-                        case PROP_IS_OBSTACLE_IN_MAP:
-                            obstacle = trajIsObstacleInMap(canOrderGetObstacle());
-                            canSendObstacleType(obstacle);
-                            break;
                         
                     }
                     canReceivedOrderFlag = 0;

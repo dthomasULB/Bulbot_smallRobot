@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\..\\libdspic\\timers.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\..\\libdspic\\timers.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -44,6 +44,15 @@ _ISRENx:
 	.word	_IEC0
 	.word	_IEC1
 	.word	_IEC1
+	.global	_ISRIFx	; export
+	.align	2
+	.type	_ISRIFx,@object
+_ISRIFx:
+	.word	_IFS0
+	.word	_IFS0
+	.word	_IFS0
+	.word	_IFS1
+	.word	_IFS1
 	.global	_ISRMaskx	; export
 	.align	2
 	.type	_ISRMaskx,@object
@@ -726,6 +735,110 @@ _timerInterrupt:
 	return	
 	.set ___PA___,0
 .LFE4:
+	.align	2
+	.global	_timerFlag	; export
+	.type	_timerFlag,@function
+_timerFlag:
+.LFB5:
+.LSM79:
+	.set ___PA___,1
+	lnk	#2
+	mov	w0,[w14]
+.LSM80:
+	mov	[w14],w4
+	sub	w4,#5,[w15]
+	.set ___BP___,0
+	bra	gt,.L52
+	mov	[w14],w4
+	sub	w4,#0,[w15]
+	.set ___BP___,0
+	bra	gt,.L53
+.L52:
+.LSM81:
+	bra	.L52
+.L53:
+.LSM82:
+	dec	[w14],w4
+	add	w4,w4,w5
+	mov	#_ISRIFx,w4
+	add	w5,w4,w4
+	mov	[w4],w4
+	mov	[w4],w5
+	dec	[w14],w4
+	add	w4,w4,w6
+	mov	#_ISRMaskx,w4
+	add	w6,w4,w4
+	mov	[w4],w4
+	and	w5,w4,w4
+.LSM83:
+	mov	w4,w0
+	ulnk	
+	return	
+	.set ___PA___,0
+.LFE5:
+	.align	2
+	.global	_timerReset	; export
+	.type	_timerReset,@function
+_timerReset:
+.LFB6:
+.LSM84:
+	.set ___PA___,1
+	lnk	#2
+	mov	w0,[w14]
+.LSM85:
+	mov	[w14],w4
+	sub	w4,#0,[w15]
+	.set ___BP___,0
+	bra	le,.L55
+	mov	[w14],w4
+	sub	w4,#5,[w15]
+	.set ___BP___,0
+	bra	le,.L56
+	mov	[w14],w4
+	sub	w4,#6,[w15]
+	.set ___BP___,0
+	bra	z,.L56
+	mov	[w14],w4
+	sub	w4,#7,[w15]
+	.set ___BP___,0
+	bra	z,.L56
+.L55:
+.LSM86:
+	bra	.L55
+.L56:
+.LSM87:
+	dec	[w14],w4
+	add	w4,w4,w5
+	mov	#_TMRx,w4
+	add	w5,w4,w4
+	mov	[w4],w4
+	clr	w5
+	mov	w5,[w4]
+.LSM88:
+	dec	[w14],w4
+	add	w4,w4,w5
+	mov	#_ISRIFx,w4
+	add	w5,w4,w4
+	mov	[w4],w5
+	dec	[w14],w4
+	add	w4,w4,w6
+	mov	#_ISRIFx,w4
+	add	w6,w4,w4
+	mov	[w4],w4
+	mov	[w4],w6
+	dec	[w14],w4
+	add	w4,w4,w7
+	mov	#_ISRMaskx,w4
+	add	w7,w4,w4
+	mov	[w4],w4
+	com	w4,w4
+	and	w6,w4,w4
+	mov	w4,[w5]
+.LSM89:
+	ulnk	
+	return	
+	.set ___PA___,0
+.LFE6:
 	.section	.debug_frame,info
 .Lframe0:
 	.4byte	.LECIE0-.LSCIE0
@@ -784,10 +897,26 @@ _timerInterrupt:
 	.4byte	.LFE4-.LFB4
 	.align	4
 .LEFDE8:
+.LSFDE10:
+	.4byte	.LEFDE10-.LASFDE10
+.LASFDE10:
+	.4byte	.Lframe0
+	.4byte	.LFB5
+	.4byte	.LFE5-.LFB5
+	.align	4
+.LEFDE10:
+.LSFDE12:
+	.4byte	.LEFDE12-.LASFDE12
+.LASFDE12:
+	.4byte	.Lframe0
+	.4byte	.LFB6
+	.4byte	.LFE6-.LFB6
+	.align	4
+.LEFDE12:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x612
+	.4byte	0x71b
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -795,8 +924,9 @@ _timerInterrupt:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"../libdspic/timers.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -808,7 +938,7 @@ _timerInterrupt:
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1f
-	.4byte	0x119
+	.4byte	0x15c
 	.uleb128 0x4
 	.asciz	"TIMER_SUCCESS"
 	.sleb128 0
@@ -823,48 +953,48 @@ _timerInterrupt:
 	.asciz	"timerStatus"
 	.byte	0x3
 	.byte	0x23
-	.4byte	0xda
+	.4byte	0x11d
 	.uleb128 0x6
 	.byte	0x1
 	.asciz	"timerSetup"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x1c
 	.byte	0x1
-	.4byte	0x119
+	.4byte	0x15c
 	.4byte	.LFB0
 	.4byte	.LFE0
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x188
+	.4byte	0x1cb
 	.uleb128 0x7
 	.asciz	"id"
 	.byte	0x1
-	.byte	0x1b
-	.4byte	0x188
+	.byte	0x1c
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
 	.uleb128 0x8
 	.4byte	.LASF0
 	.byte	0x1
-	.byte	0x1b
-	.4byte	0x18f
+	.byte	0x1c
+	.4byte	0x1d2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
 	.uleb128 0x9
 	.asciz	"PRval"
 	.byte	0x1
-	.byte	0x1d
-	.4byte	0x198
+	.byte	0x1e
+	.4byte	0x1db
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
 	.uleb128 0xa
 	.4byte	.LASF1
 	.byte	0x1
-	.byte	0x1e
-	.4byte	0x188
+	.byte	0x1f
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -885,51 +1015,51 @@ _timerInterrupt:
 	.byte	0x1
 	.asciz	"timerSetup32"
 	.byte	0x1
-	.byte	0x42
+	.byte	0x43
 	.byte	0x1
-	.4byte	0x119
+	.4byte	0x15c
 	.4byte	.LFB1
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x20e
+	.4byte	0x251
 	.uleb128 0x7
 	.asciz	"id"
 	.byte	0x1
-	.byte	0x42
-	.4byte	0x188
+	.byte	0x43
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
 	.uleb128 0x8
 	.4byte	.LASF0
 	.byte	0x1
-	.byte	0x42
-	.4byte	0x18f
+	.byte	0x43
+	.4byte	0x1d2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
 	.uleb128 0x9
 	.asciz	"PRval"
 	.byte	0x1
-	.byte	0x44
-	.4byte	0x18f
+	.byte	0x45
+	.4byte	0x1d2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
 	.uleb128 0xa
 	.4byte	.LASF1
 	.byte	0x1
-	.byte	0x45
-	.4byte	0x188
+	.byte	0x46
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
 	.uleb128 0x9
 	.asciz	"x"
 	.byte	0x1
-	.byte	0x46
-	.4byte	0x188
+	.byte	0x47
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -938,27 +1068,27 @@ _timerInterrupt:
 	.byte	0x1
 	.asciz	"timerStart"
 	.byte	0x1
-	.byte	0x6d
+	.byte	0x6e
 	.byte	0x1
-	.4byte	0x119
+	.4byte	0x15c
 	.4byte	.LFB2
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x24a
+	.4byte	0x28d
 	.uleb128 0x7
 	.asciz	"id"
 	.byte	0x1
-	.byte	0x6d
-	.4byte	0x188
+	.byte	0x6e
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
 	.uleb128 0x9
 	.asciz	"x"
 	.byte	0x1
-	.byte	0x6f
-	.4byte	0x188
+	.byte	0x70
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -967,27 +1097,27 @@ _timerInterrupt:
 	.byte	0x1
 	.asciz	"timerStop"
 	.byte	0x1
-	.byte	0x81
+	.byte	0x82
 	.byte	0x1
-	.4byte	0x119
+	.4byte	0x15c
 	.4byte	.LFB3
 	.4byte	.LFE3
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x285
+	.4byte	0x2c8
 	.uleb128 0x7
 	.asciz	"id"
 	.byte	0x1
-	.byte	0x81
-	.4byte	0x188
+	.byte	0x82
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
 	.uleb128 0x9
 	.asciz	"x"
 	.byte	0x1
-	.byte	0x83
-	.4byte	0x188
+	.byte	0x84
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -996,35 +1126,35 @@ _timerInterrupt:
 	.byte	0x1
 	.asciz	"timerInterrupt"
 	.byte	0x1
-	.byte	0x91
+	.byte	0x92
 	.byte	0x1
-	.4byte	0x119
+	.4byte	0x15c
 	.4byte	.LFB4
 	.4byte	.LFE4
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x2d8
+	.4byte	0x31b
 	.uleb128 0x7
 	.asciz	"id"
 	.byte	0x1
-	.byte	0x91
-	.4byte	0x188
+	.byte	0x92
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
 	.uleb128 0x7
 	.asciz	"fonction"
 	.byte	0x1
-	.byte	0x91
-	.4byte	0x2da
+	.byte	0x92
+	.4byte	0x31d
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
 	.uleb128 0x9
 	.asciz	"x"
 	.byte	0x1
-	.byte	0x92
-	.4byte	0x188
+	.byte	0x93
+	.4byte	0x1cb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1033,383 +1163,472 @@ _timerInterrupt:
 	.byte	0x1
 	.uleb128 0xc
 	.byte	0x2
-	.4byte	0x2d8
-	.uleb128 0xd
-	.asciz	"IEC0"
+	.4byte	0x31b
+	.uleb128 0x6
+	.byte	0x1
+	.asciz	"timerFlag"
+	.byte	0x1
+	.byte	0xa3
+	.byte	0x1
+	.4byte	0x1cb
+	.4byte	.LFB5
+	.4byte	.LFE5
+	.byte	0x1
+	.byte	0x5e
+	.4byte	0x352
+	.uleb128 0x7
+	.asciz	"id"
+	.byte	0x1
+	.byte	0xa3
+	.4byte	0x1cb
 	.byte	0x2
-	.2byte	0x1a9
-	.4byte	0x2ef
+	.byte	0x7e
+	.sleb128 0
+	.byte	0x0
+	.uleb128 0xd
 	.byte	0x1
+	.asciz	"timerReset"
 	.byte	0x1
+	.byte	0xaa
+	.byte	0x1
+	.4byte	.LFB6
+	.4byte	.LFE6
+	.byte	0x1
+	.byte	0x5e
+	.4byte	0x37e
+	.uleb128 0x7
+	.asciz	"id"
+	.byte	0x1
+	.byte	0xaa
+	.4byte	0x1cb
+	.byte	0x2
+	.byte	0x7e
+	.sleb128 0
+	.byte	0x0
 	.uleb128 0xe
-	.4byte	0xca
-	.uleb128 0xd
-	.asciz	"IEC1"
+	.asciz	"IFS0"
 	.byte	0x2
-	.2byte	0x1be
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"TMR1"
-	.byte	0x2
-	.2byte	0x419
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"PR1"
-	.byte	0x2
-	.2byte	0x41b
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"T1CON"
-	.byte	0x2
-	.2byte	0x41d
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"TMR2"
-	.byte	0x2
-	.2byte	0x436
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"TMR3"
-	.byte	0x2
-	.2byte	0x43a
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"PR2"
-	.byte	0x2
-	.2byte	0x43c
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"PR3"
-	.byte	0x2
-	.2byte	0x43e
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"T2CON"
-	.byte	0x2
-	.2byte	0x440
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"T3CON"
-	.byte	0x2
-	.2byte	0x459
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"TMR4"
-	.byte	0x2
-	.2byte	0x471
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"TMR5"
-	.byte	0x2
-	.2byte	0x475
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"PR4"
-	.byte	0x2
-	.2byte	0x477
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"PR5"
-	.byte	0x2
-	.2byte	0x479
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"T4CON"
-	.byte	0x2
-	.2byte	0x47b
-	.4byte	0x2ef
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0xd
-	.asciz	"T5CON"
-	.byte	0x2
-	.2byte	0x494
-	.4byte	0x2ef
+	.2byte	0x148
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xf
-	.4byte	0x3f4
-	.4byte	0x3f4
+	.4byte	0x10d
+	.uleb128 0xe
+	.asciz	"IFS1"
+	.byte	0x2
+	.2byte	0x15d
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"IEC0"
+	.byte	0x2
+	.2byte	0x1a9
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"IEC1"
+	.byte	0x2
+	.2byte	0x1be
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"TMR1"
+	.byte	0x2
+	.2byte	0x419
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"PR1"
+	.byte	0x2
+	.2byte	0x41b
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"T1CON"
+	.byte	0x2
+	.2byte	0x41d
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"TMR2"
+	.byte	0x2
+	.2byte	0x436
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"TMR3"
+	.byte	0x2
+	.2byte	0x43a
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"PR2"
+	.byte	0x2
+	.2byte	0x43c
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"PR3"
+	.byte	0x2
+	.2byte	0x43e
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"T2CON"
+	.byte	0x2
+	.2byte	0x440
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"T3CON"
+	.byte	0x2
+	.2byte	0x459
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"TMR4"
+	.byte	0x2
+	.2byte	0x471
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"TMR5"
+	.byte	0x2
+	.2byte	0x475
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"PR4"
+	.byte	0x2
+	.2byte	0x477
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"PR5"
+	.byte	0x2
+	.2byte	0x479
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"T4CON"
+	.byte	0x2
+	.2byte	0x47b
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"T5CON"
+	.byte	0x2
+	.2byte	0x494
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
 	.uleb128 0x10
-	.4byte	0xca
+	.4byte	0x4b0
+	.4byte	0x4b0
+	.uleb128 0x11
+	.4byte	0x10d
 	.byte	0x4
 	.byte	0x0
 	.uleb128 0xc
 	.byte	0x2
-	.4byte	0x2ef
-	.uleb128 0x11
+	.4byte	0x38d
+	.uleb128 0x12
 	.asciz	"TxCON"
 	.byte	0x1
 	.byte	0xc
-	.4byte	0x409
+	.4byte	0x4c5
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x13
+	.4byte	0x4a0
 	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x11
 	.asciz	"PRx"
 	.byte	0x1
 	.byte	0xe
-	.4byte	0x41b
+	.4byte	0x4d7
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x13
+	.4byte	0x4a0
 	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x11
 	.asciz	"TMRx"
 	.byte	0x1
 	.byte	0x10
-	.4byte	0x42e
+	.4byte	0x4ea
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x13
+	.4byte	0x4a0
 	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x11
 	.asciz	"ISRENx"
 	.byte	0x1
 	.byte	0x12
-	.4byte	0x443
+	.4byte	0x4ff
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0xf
-	.4byte	0xca
-	.4byte	0x458
-	.uleb128 0x10
-	.4byte	0xca
-	.byte	0x4
-	.byte	0x0
 	.uleb128 0x13
-	.4byte	.LASF2
+	.4byte	0x4a0
+	.uleb128 0x12
+	.asciz	"ISRIFx"
 	.byte	0x1
 	.byte	0x14
-	.4byte	0x465
+	.4byte	0x514
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x12
-	.4byte	0x448
-	.uleb128 0xf
-	.4byte	0x2da
-	.4byte	0x47a
+	.uleb128 0x13
+	.4byte	0x4a0
 	.uleb128 0x10
-	.4byte	0xca
+	.4byte	0x10d
+	.4byte	0x529
+	.uleb128 0x11
+	.4byte	0x10d
 	.byte	0x4
 	.byte	0x0
+	.uleb128 0x14
+	.4byte	.LASF2
+	.byte	0x1
+	.byte	0x15
+	.4byte	0x536
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x13
+	.4byte	0x519
+	.uleb128 0x10
+	.4byte	0x31d
+	.4byte	0x54b
 	.uleb128 0x11
+	.4byte	0x10d
+	.byte	0x4
+	.byte	0x0
+	.uleb128 0x12
 	.asciz	"TxISR"
 	.byte	0x1
-	.byte	0x17
-	.4byte	0x46a
+	.byte	0x18
+	.4byte	0x53b
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
+	.asciz	"IFS0"
+	.byte	0x2
+	.2byte	0x148
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
+	.asciz	"IFS1"
+	.byte	0x2
+	.2byte	0x15d
+	.4byte	0x38d
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0xe
 	.asciz	"IEC0"
 	.byte	0x2
 	.2byte	0x1a9
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"IEC1"
 	.byte	0x2
 	.2byte	0x1be
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"TMR1"
 	.byte	0x2
 	.2byte	0x419
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"PR1"
 	.byte	0x2
 	.2byte	0x41b
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"T1CON"
 	.byte	0x2
 	.2byte	0x41d
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"TMR2"
 	.byte	0x2
 	.2byte	0x436
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"TMR3"
 	.byte	0x2
 	.2byte	0x43a
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x43c
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"PR3"
 	.byte	0x2
 	.2byte	0x43e
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"T2CON"
 	.byte	0x2
 	.2byte	0x440
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"T3CON"
 	.byte	0x2
 	.2byte	0x459
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"TMR4"
 	.byte	0x2
 	.2byte	0x471
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"TMR5"
 	.byte	0x2
 	.2byte	0x475
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"PR4"
 	.byte	0x2
 	.2byte	0x477
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"PR5"
 	.byte	0x2
 	.2byte	0x479
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"T4CON"
 	.byte	0x2
 	.2byte	0x47b
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0xd
+	.uleb128 0xe
 	.asciz	"T5CON"
 	.byte	0x2
 	.2byte	0x494
-	.4byte	0x2ef
+	.4byte	0x38d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x14
+	.uleb128 0x15
 	.asciz	"TxCON"
 	.byte	0x1
 	.byte	0xc
-	.4byte	0x59c
+	.4byte	0x68b
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_TxCON
-	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x14
+	.uleb128 0x13
+	.4byte	0x4a0
+	.uleb128 0x15
 	.asciz	"PRx"
 	.byte	0x1
 	.byte	0xe
-	.4byte	0x5b3
+	.4byte	0x6a2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_PRx
-	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x14
+	.uleb128 0x13
+	.4byte	0x4a0
+	.uleb128 0x15
 	.asciz	"TMRx"
 	.byte	0x1
 	.byte	0x10
-	.4byte	0x5cb
+	.4byte	0x6ba
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_TMRx
-	.uleb128 0x12
-	.4byte	0x3e4
-	.uleb128 0x14
+	.uleb128 0x13
+	.4byte	0x4a0
+	.uleb128 0x15
 	.asciz	"ISRENx"
 	.byte	0x1
 	.byte	0x12
-	.4byte	0x5e5
+	.4byte	0x6d4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_ISRENx
-	.uleb128 0x12
-	.4byte	0x3e4
+	.uleb128 0x13
+	.4byte	0x4a0
 	.uleb128 0x15
-	.4byte	.LASF2
+	.asciz	"ISRIFx"
 	.byte	0x1
 	.byte	0x14
-	.4byte	0x5fc
+	.4byte	0x6ee
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.4byte	_ISRIFx
+	.uleb128 0x13
+	.4byte	0x4a0
+	.uleb128 0x16
+	.4byte	.LASF2
+	.byte	0x1
+	.byte	0x15
+	.4byte	0x705
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_ISRMaskx
-	.uleb128 0x12
-	.4byte	0x448
-	.uleb128 0x14
+	.uleb128 0x13
+	.4byte	0x519
+	.uleb128 0x15
 	.asciz	"TxISR"
 	.byte	0x1
-	.byte	0x17
-	.4byte	0x46a
+	.byte	0x18
+	.4byte	0x53b
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1583,6 +1802,29 @@ _timerInterrupt:
 	.byte	0x0
 	.byte	0x0
 	.uleb128 0xd
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0x0
+	.byte	0x0
+	.uleb128 0xe
 	.uleb128 0x34
 	.byte	0x0
 	.uleb128 0x3
@@ -1599,14 +1841,14 @@ _timerInterrupt:
 	.uleb128 0xc
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0xe
+	.uleb128 0xf
 	.uleb128 0x35
 	.byte	0x0
 	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0xf
+	.uleb128 0x10
 	.uleb128 0x1
 	.byte	0x1
 	.uleb128 0x49
@@ -1615,7 +1857,7 @@ _timerInterrupt:
 	.uleb128 0x13
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x10
+	.uleb128 0x11
 	.uleb128 0x21
 	.byte	0x0
 	.uleb128 0x49
@@ -1624,7 +1866,7 @@ _timerInterrupt:
 	.uleb128 0xb
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x11
+	.uleb128 0x12
 	.uleb128 0x34
 	.byte	0x0
 	.uleb128 0x3
@@ -1641,14 +1883,14 @@ _timerInterrupt:
 	.uleb128 0xc
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x12
+	.uleb128 0x13
 	.uleb128 0x26
 	.byte	0x0
 	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x13
+	.uleb128 0x14
 	.uleb128 0x34
 	.byte	0x0
 	.uleb128 0x3
@@ -1665,7 +1907,7 @@ _timerInterrupt:
 	.uleb128 0xc
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x14
+	.uleb128 0x15
 	.uleb128 0x34
 	.byte	0x0
 	.uleb128 0x3
@@ -1682,7 +1924,7 @@ _timerInterrupt:
 	.uleb128 0xa
 	.byte	0x0
 	.byte	0x0
-	.uleb128 0x15
+	.uleb128 0x16
 	.uleb128 0x34
 	.byte	0x0
 	.uleb128 0x3
@@ -1701,39 +1943,45 @@ _timerInterrupt:
 	.byte	0x0
 	.byte	0x0
 	.section	.debug_pubnames,info
-	.4byte	0x9b
+	.4byte	0xc3
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x616
-	.4byte	0x12c
+	.4byte	0x71f
+	.4byte	0x16f
 	.asciz	"timerSetup"
-	.4byte	0x1a4
+	.4byte	0x1e7
 	.asciz	"timerSetup32"
-	.4byte	0x20e
+	.4byte	0x251
 	.asciz	"timerStart"
-	.4byte	0x24a
+	.4byte	0x28d
 	.asciz	"timerStop"
-	.4byte	0x285
+	.4byte	0x2c8
 	.asciz	"timerInterrupt"
-	.4byte	0x588
+	.4byte	0x323
+	.asciz	"timerFlag"
+	.4byte	0x352
+	.asciz	"timerReset"
+	.4byte	0x677
 	.asciz	"TxCON"
-	.4byte	0x5a1
+	.4byte	0x690
 	.asciz	"PRx"
-	.4byte	0x5b8
+	.4byte	0x6a7
 	.asciz	"TMRx"
-	.4byte	0x5d0
+	.4byte	0x6bf
 	.asciz	"ISRENx"
-	.4byte	0x5ea
+	.4byte	0x6d9
+	.asciz	"ISRIFx"
+	.4byte	0x6f3
 	.asciz	"ISRMaskx"
-	.4byte	0x601
+	.4byte	0x70a
 	.asciz	"TxISR"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x1e
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x616
-	.4byte	0x119
+	.4byte	0x71f
+	.4byte	0x15c
 	.asciz	"timerStatus"
 	.4byte	0x0
 	.section	.debug_aranges,info
@@ -1797,7 +2045,7 @@ _timerInterrupt:
 	.uleb128 0x5
 	.byte	0x2
 	.4byte	.LSM0
-	.byte	0x2e
+	.byte	0x2f
 	.byte	0x0
 	.uleb128 0x5
 	.byte	0x2
@@ -1919,7 +2167,7 @@ _timerInterrupt:
 	.uleb128 0x5
 	.byte	0x2
 	.4byte	.LSM23
-	.byte	0x55
+	.byte	0x56
 	.byte	0x0
 	.uleb128 0x5
 	.byte	0x2
@@ -2061,7 +2309,7 @@ _timerInterrupt:
 	.uleb128 0x5
 	.byte	0x2
 	.4byte	.LSM50
-	.byte	0x81
+	.byte	0x82
 	.byte	0x0
 	.uleb128 0x5
 	.byte	0x2
@@ -2118,7 +2366,7 @@ _timerInterrupt:
 	.uleb128 0x5
 	.byte	0x2
 	.4byte	.LSM60
-	.byte	0x95
+	.byte	0x96
 	.byte	0x0
 	.uleb128 0x5
 	.byte	0x2
@@ -2170,7 +2418,7 @@ _timerInterrupt:
 	.uleb128 0x5
 	.byte	0x2
 	.4byte	.LSM69
-	.byte	0xa4
+	.byte	0xa5
 	.byte	0x0
 	.uleb128 0x5
 	.byte	0x2
@@ -2223,14 +2471,83 @@ _timerInterrupt:
 	.byte	0x0
 	.uleb128 0x1
 	.byte	0x1
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM79
+	.byte	0xb6
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM80
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM81
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM82
+	.byte	0x16
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM83
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LFE5
+	.byte	0x0
+	.uleb128 0x1
+	.byte	0x1
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM84
+	.byte	0xbd
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM85
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM86
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM87
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM88
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LSM89
+	.byte	0x15
+	.byte	0x0
+	.uleb128 0x5
+	.byte	0x2
+	.4byte	.LFE6
+	.byte	0x0
+	.uleb128 0x1
+	.byte	0x1
 .LELT0:
 	.section	.debug_str,info
+.LASF2:
+	.asciz	"ISRMaskx"
 .LASF1:
 	.asciz	"prescale"
 .LASF0:
 	.asciz	"periodMs"
-.LASF2:
-	.asciz	"ISRMaskx"
 	.section	.text,code
 
 	.section __c30_signature, info, data

@@ -12,7 +12,7 @@
 #include "../libdspic/servo.h"
 #include "timer.h"
 #include "spio.h"
-
+#include "ax12.h"
 
 const positionInteger clap1StartPos = {240, 150, -900};
 const positionInteger clap1EndPos = {400, 150, 0};
@@ -21,15 +21,18 @@ const positionInteger clap2EndPos = {900, 150, 900};
 
 const positionInteger Door1_Start_pos = {2500, 1850, 1800};
 const positionInteger Door2_end_pos = {2000, 1850, 1800};
-const positionInteger Fish_start = {2200, 150, 0};
+const positionInteger Fish_start = {2200, 150, 1800};
 const positionInteger Fish_net = {1200, 150, 1800};
+const positionInteger Fish_bordure = {1700, 150, 1800};
 
 infoActionType demarrageJauneFct(int option);
 infoActionType retourVertFct(int option);
 infoActionType demarrageVertFct(int option);
+infoActionType TestArriere(int option);
+infoActionType TestAvant(int option);
 
 actionType actionsJaune[NB_ACTIONS_JAUNE] = {{DEFAULT_ACTION, demarrageJauneFct},{DEFAULT_ACTION, clapChezNousJaune}};
-actionType actionsVert[NB_ACTIONS_VERT] =   {DEFAULT_ACTION, retourVertFct};//{DEFAULT_ACTION, demarrageVertFct},{DEFAULT_ACTION, Fishing},{DEFAULT_ACTION, retourVertFct}};
+actionType actionsVert[NB_ACTIONS_VERT] =  {{DEFAULT_ACTION, demarrageVertFct},{DEFAULT_ACTION, Fishing},{DEFAULT_ACTION, retourVertFct}};
 
 
 infoActionType demarrageJauneFct(int option) {
@@ -40,10 +43,23 @@ infoActionType demarrageJauneFct(int option) {
     return (infoAction);
 }
 
+infoActionType TestArriere(int option) {
+    static infoActionType infoAction = {ACTION_PAS_COMMENCEE, 0, 1, ACTION_TRAJECTOIRE, {0, 0, 0}};
+    infoAction.statut = translationBasicAction(1000, 1000, -200);
+    return (infoAction);
+}
+infoActionType TestAvant(int option) {
+    static infoActionType infoAction = {ACTION_PAS_COMMENCEE, 0, 1, ACTION_TRAJECTOIRE, {0, 0, 0}};
+    infoAction.statut = translationBasicAction(1000, 1000, 200);
+    return (infoAction);
+}
 
 infoActionType retourVertFct(int option) {
   static infoActionType infoAction = {ACTION_PAS_COMMENCEE, 0, 1, ACTION_TRAJECTOIRE, {2500, 1700, 1800}};
+  RentrerAimant();
+while(AimantIsMoving()){}
    infoAction.statut = trajectoryBasicAction(infoAction.position);
+  
     return (infoAction);
 }
   
@@ -139,10 +155,13 @@ infoActionType Fishing(int option) {
             case GOTO_FISH_START:
                 trajStatut = trajectoryBasicAction(Fish_start);
                 if (trajStatut == ACTION_FINIE) {
+                    SortirAimant();
+                    ElectroAimant=1;
+                    while(AimantIsMoving()){}
                     infoAction.etapeEnCours = GOTO_FISH_END;
                     etape= GOTO_FISH_END;
-                    sortirServoClap();
-                    ElectroAimant=1;
+                    
+                    
                 }
                 else  if (trajStatut == ACTION_ERREUR) {
                     infoAction.statut = ACTION_REMISE;
@@ -150,20 +169,28 @@ infoActionType Fishing(int option) {
                 }
                 break;
             case GOTO_FISH_END:
+                RentrerAimant();
+                while(AimantIsMoving()){}
                 trajStatut = trajectoryBasicAction(Fish_net);
                 if (trajStatut == ACTION_FINIE) {
+                    SortirAimant();
+                    while(AimantIsMoving()){}
+                    ElectroAimant=0;
                     infoAction.statut = ACTION_FINIE;
                     etape = FINI;
-                    ElectroAimant=0;
-                    rentrerServoClap();
+                    
+                    
                 }
                if (trajStatut == ACTION_ERREUR) {
                     infoAction.statut = ACTION_REMISE;
                     etape = FINI;
+                    SortirAimant();
+                    while(AimantIsMoving()){}
                     ElectroAimant=0;
-                    rentrerServoClap();
-                   
                 }
+           //    if (compareXY(propulsionGetPosition(), Fish_bordure)) {      // on rentre le bras pour ne pas toucher le clap de l'adversaire
+           //         RentrerAimant();
+           //     }
                 break;
             default:
                 break;
@@ -256,7 +283,7 @@ infoActionType clapChezNousJaune(int option) {
                     infoAction.statut = ACTION_REMISE;
                     etape = FINI;
                 }
-                if (compareXY(propulsionGetPosition(), clap1EndPos)) {      // on rentre le bras pour ne pas toucher le clap de l'adversaire
+                if (compareXY(propulsionGetPosition(), Fish_bordure)) {      // on rentre le bras pour ne pas toucher le clap de l'adversaire
                     rentrerServoClap();
                 }
                 if (compareXY(propulsionGetPosition(), clap2StartPos)) {    // on ressort le bras pour notre 2ème clap

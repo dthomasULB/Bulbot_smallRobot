@@ -127,7 +127,7 @@ actionStatutType trajectoryBasicAction(positionInteger destination) {
 }
 
 actionStatutType translationBasicAction(int acc, int vit, int dist) {
-    actionStatutType statutAction = ACTION_FINIE;
+    actionStatutType statutAction = ACTION_EN_COURS;
     positionInteger destination;
     static enum {
         ENVOI_ORDRE = 0,
@@ -136,7 +136,7 @@ actionStatutType translationBasicAction(int acc, int vit, int dist) {
         FINI = 3
     } etape = ENVOI_ORDRE;
 
-    while (etape != FINI) {
+   // while (etape != FINI) {
         switch (etape) {
             case ENVOI_ORDRE:       // 1: envoyer l'ordre à la propulsion
                 destination = propulsionGetPosition();
@@ -174,13 +174,15 @@ actionStatutType translationBasicAction(int acc, int vit, int dist) {
                 }
                 break;
             case FINI:
+                etape = ENVOI_ORDRE;
+                statutAction = ACTION_FINIE;
                 break;
             default:
                 statutAction = ACTION_EN_COURS; // au cas où, on vérifie qu'on n'est pas en train de bouger
                 etape = ATTENTE_FIN_MOUVEMENT;
                 break;
         }
-    }
+    //}
 
     return (statutAction);
 }

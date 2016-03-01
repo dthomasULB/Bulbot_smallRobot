@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\..\\libdspic\\clock.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\..\\libdspic\\clock.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -89,7 +89,7 @@ _pllConfig:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x4b8
+	.4byte	0x4fb
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -97,8 +97,9 @@ _pllConfig:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"../libdspic/clock.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -110,12 +111,12 @@ _pllConfig:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1955
-	.4byte	0x182
+	.4byte	0x1c5
 	.uleb128 0x4
 	.asciz	"OSWEN"
 	.byte	0x2
 	.2byte	0x1956
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -126,7 +127,7 @@ _pllConfig:
 	.asciz	"LPOSCEN"
 	.byte	0x2
 	.2byte	0x1957
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -137,7 +138,7 @@ _pllConfig:
 	.asciz	"CF"
 	.byte	0x2
 	.2byte	0x1959
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -148,7 +149,7 @@ _pllConfig:
 	.asciz	"LOCK"
 	.byte	0x2
 	.2byte	0x195b
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -159,7 +160,7 @@ _pllConfig:
 	.asciz	"IOLOCK"
 	.byte	0x2
 	.2byte	0x195c
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -170,7 +171,7 @@ _pllConfig:
 	.asciz	"CLKLOCK"
 	.byte	0x2
 	.2byte	0x195d
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -181,7 +182,7 @@ _pllConfig:
 	.asciz	"NOSC"
 	.byte	0x2
 	.2byte	0x195e
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -192,7 +193,7 @@ _pllConfig:
 	.asciz	"COSC"
 	.byte	0x2
 	.2byte	0x1960
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -204,12 +205,12 @@ _pllConfig:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1962
-	.4byte	0x204
+	.4byte	0x247
 	.uleb128 0x4
 	.asciz	"NOSC0"
 	.byte	0x2
 	.2byte	0x1964
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -220,7 +221,7 @@ _pllConfig:
 	.asciz	"NOSC1"
 	.byte	0x2
 	.2byte	0x1965
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -231,7 +232,7 @@ _pllConfig:
 	.asciz	"NOSC2"
 	.byte	0x2
 	.2byte	0x1966
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -242,7 +243,7 @@ _pllConfig:
 	.asciz	"COSC0"
 	.byte	0x2
 	.2byte	0x1968
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -253,7 +254,7 @@ _pllConfig:
 	.asciz	"COSC1"
 	.byte	0x2
 	.2byte	0x1969
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -264,7 +265,7 @@ _pllConfig:
 	.asciz	"COSC2"
 	.byte	0x2
 	.2byte	0x196a
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -276,20 +277,20 @@ _pllConfig:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1954
-	.4byte	0x218
+	.4byte	0x25b
 	.uleb128 0x6
-	.4byte	0xd9
+	.4byte	0x11c
 	.uleb128 0x6
-	.4byte	0x182
+	.4byte	0x1c5
 	.byte	0x0
 	.uleb128 0x7
 	.asciz	"tagOSCCONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1953
-	.4byte	0x238
+	.4byte	0x27b
 	.uleb128 0x8
-	.4byte	0x204
+	.4byte	0x247
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -298,17 +299,17 @@ _pllConfig:
 	.asciz	"OSCCONBITS"
 	.byte	0x2
 	.2byte	0x196d
-	.4byte	0x218
+	.4byte	0x25b
 	.uleb128 0x3
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1978
-	.4byte	0x2ce
+	.4byte	0x311
 	.uleb128 0x4
 	.asciz	"PLLPRE"
 	.byte	0x2
 	.2byte	0x1979
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -319,7 +320,7 @@ _pllConfig:
 	.asciz	"PLLPOST"
 	.byte	0x2
 	.2byte	0x197b
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -330,7 +331,7 @@ _pllConfig:
 	.asciz	"FRCDIV"
 	.byte	0x2
 	.2byte	0x197c
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -341,7 +342,7 @@ _pllConfig:
 	.asciz	"DOZEN"
 	.byte	0x2
 	.2byte	0x197d
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -352,7 +353,7 @@ _pllConfig:
 	.asciz	"DOZE"
 	.byte	0x2
 	.2byte	0x197e
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -363,7 +364,7 @@ _pllConfig:
 	.asciz	"ROI"
 	.byte	0x2
 	.2byte	0x197f
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -375,12 +376,12 @@ _pllConfig:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1981
-	.4byte	0x3f2
+	.4byte	0x435
 	.uleb128 0x4
 	.asciz	"PLLPRE0"
 	.byte	0x2
 	.2byte	0x1982
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -391,7 +392,7 @@ _pllConfig:
 	.asciz	"PLLPRE1"
 	.byte	0x2
 	.2byte	0x1983
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -402,7 +403,7 @@ _pllConfig:
 	.asciz	"PLLPRE2"
 	.byte	0x2
 	.2byte	0x1984
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -413,7 +414,7 @@ _pllConfig:
 	.asciz	"PLLPRE3"
 	.byte	0x2
 	.2byte	0x1985
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -424,7 +425,7 @@ _pllConfig:
 	.asciz	"PLLPRE4"
 	.byte	0x2
 	.2byte	0x1986
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -435,7 +436,7 @@ _pllConfig:
 	.asciz	"PLLPOST0"
 	.byte	0x2
 	.2byte	0x1988
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -446,7 +447,7 @@ _pllConfig:
 	.asciz	"PLLPOST1"
 	.byte	0x2
 	.2byte	0x1989
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -457,7 +458,7 @@ _pllConfig:
 	.asciz	"FRCDIV0"
 	.byte	0x2
 	.2byte	0x198a
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -468,7 +469,7 @@ _pllConfig:
 	.asciz	"FRCDIV1"
 	.byte	0x2
 	.2byte	0x198b
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -479,7 +480,7 @@ _pllConfig:
 	.asciz	"FRCDIV2"
 	.byte	0x2
 	.2byte	0x198c
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -490,7 +491,7 @@ _pllConfig:
 	.asciz	"DOZE0"
 	.byte	0x2
 	.2byte	0x198e
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -501,7 +502,7 @@ _pllConfig:
 	.asciz	"DOZE1"
 	.byte	0x2
 	.2byte	0x198f
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -512,7 +513,7 @@ _pllConfig:
 	.asciz	"DOZE2"
 	.byte	0x2
 	.2byte	0x1990
-	.4byte	0xc9
+	.4byte	0x10c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -524,20 +525,20 @@ _pllConfig:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1977
-	.4byte	0x406
+	.4byte	0x449
 	.uleb128 0x6
-	.4byte	0x24b
+	.4byte	0x28e
 	.uleb128 0x6
-	.4byte	0x2ce
+	.4byte	0x311
 	.byte	0x0
 	.uleb128 0x7
 	.asciz	"tagCLKDIVBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1976
-	.4byte	0x426
+	.4byte	0x469
 	.uleb128 0x8
-	.4byte	0x3f2
+	.4byte	0x435
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -546,7 +547,7 @@ _pllConfig:
 	.asciz	"CLKDIVBITS"
 	.byte	0x2
 	.2byte	0x1993
-	.4byte	0x406
+	.4byte	0x449
 	.uleb128 0xa
 	.byte	0x1
 	.asciz	"pllConfig"
@@ -561,48 +562,48 @@ _pllConfig:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x196e
-	.4byte	0x460
+	.4byte	0x4a3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xc
-	.4byte	0x238
+	.4byte	0x27b
 	.uleb128 0xb
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x1994
-	.4byte	0x473
+	.4byte	0x4b6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xc
-	.4byte	0x426
+	.4byte	0x469
 	.uleb128 0xd
 	.asciz	"PLLFBD"
 	.byte	0x2
 	.2byte	0x1997
-	.4byte	0x489
+	.4byte	0x4cc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xc
-	.4byte	0xc9
+	.4byte	0x10c
 	.uleb128 0xb
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x196e
-	.4byte	0x460
+	.4byte	0x4a3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xb
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x1994
-	.4byte	0x473
+	.4byte	0x4b6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.asciz	"PLLFBD"
 	.byte	0x2
 	.2byte	0x1997
-	.4byte	0x489
+	.4byte	0x4cc
 	.byte	0x1
 	.byte	0x1
 	.byte	0x0
@@ -795,22 +796,22 @@ _pllConfig:
 	.4byte	0x1c
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x4bc
-	.4byte	0x439
+	.4byte	0x4ff
+	.4byte	0x47c
 	.asciz	"pllConfig"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x50
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x4bc
-	.4byte	0x218
+	.4byte	0x4ff
+	.4byte	0x25b
 	.asciz	"tagOSCCONBITS"
-	.4byte	0x238
+	.4byte	0x27b
 	.asciz	"OSCCONBITS"
-	.4byte	0x406
+	.4byte	0x449
 	.asciz	"tagCLKDIVBITS"
-	.4byte	0x426
+	.4byte	0x469
 	.asciz	"CLKDIVBITS"
 	.4byte	0x0
 	.section	.debug_aranges,info

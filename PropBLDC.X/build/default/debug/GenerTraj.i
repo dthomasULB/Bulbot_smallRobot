@@ -1,5 +1,5 @@
 # 1 "GenerTraj.c"
-# 1 "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X//"
+# 1 "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "GenerTraj.c"
@@ -297,7 +297,7 @@ inline void trajAddObstacle(obstacleType obstacle) {
     for (a = 0; a < mpObsSize.a; a++) {
         for (b = 0; b < mpObsSize.b; b++) {
             if (dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done != OBST) {
-                dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done = OBST;
+                dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done = MOVE_OBST;
             }
         }
     }
@@ -316,7 +316,7 @@ inline void trajRemoveObstacle(obstacleType obstacle) {
     mpObsSize = RPtoMP(tmp);
     for (a = 0; a < mpObsSize.a; a++) {
         for (b = 0; b < mpObsSize.b; b++) {
-            if (dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done != OBST) {
+            if (dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done == MOVE_OBST) {
                 dkNodes[20 * (a + mpObsPos.a) + b + mpObsPos.b].done = UNPR;
             }
         }

@@ -16,14 +16,17 @@
 #include "basicActions.h"
 #include "gestionPropulsion.h"
 #include "spio.h"
+#include "adc.h"
 #include "timer.h"
 #include "sharp.h"
+#include "ax12.h"
+#include "servoClap.h"
 #include "../Can/CanNetwork.h"
 #include "../libdspic/CanDspic.h"
 #include "../libdspic/clock.h"
 #include "../libdspic/servo.h"
 #include <math.h>
-#include "communication.h"
+
 
 _FWDT(FWDTEN_OFF) // on désactive le Watchdog
 _FOSCSEL(FNOSC_FRC);
@@ -73,25 +76,22 @@ int main(void) {
 	positionInteger positionInitiale;       //<! Position initiale du robot sur la table
 	team equipe;                            //<! Equipe actuelle.
     infoActionType infoAction;
-    int EnvoiSharpActif = 1, sharpLastTime = 0;
-     propIsObstacleType obstacle;
-
+    int EnvoiSharpActif = 0, sharpLastTime = 0;
+    propIsObstacleType obstacle;
+    propIsObstacleType test;
 	pllConfig();					// Configuration de la PLL de l'horloge interne pour tourner à 40MIPS
 	assignSPIO();					// Assignation des pins du dSPIC.
     servoInit(4, TIMER_2, 10);      // initialise 1 servo, utilisant le timer2 à 10ms
+    initAX12();                 // Init de l'AX12
 	// Initialisation du CAN
 	CanInitialisation(CN_LOGIQUE);
 	propulsionInitCan();
     CanDeclarationProduction(CN_LOGIQUE*0x10, &matchStatus, sizeof(matchStatus));
     CanDeclarationProduction(CN_LOGIQUE*0x10, &mesureSharp, sizeof(mesureSharp));
 	ACTIVATE_CAN_INTERRUPTS = 1;
-	msTimerInit();                  // Initialisation du timer des millisecondes, n'est utilisé que pour waitXms (TODO: enlever en mêm temps que waitXms)
-        RadioInit();
-	while(1) {
- //           if (detectionObstacleSharp().isObstacleDetected){
- //       LED = 1;
- //           }
+	//msTimerInit();                  // Initialisation du timer des millisecondes, n'est utilisé que pour waitXms (TODO: enlever en mêm temps que waitXms)
 
+	while(1) {
 		if (getMatchTimerFlag()) {
 			matchStatus = OVER;
 		}
@@ -104,7 +104,7 @@ int main(void) {
                     matchTimerInit();				// Initialisation du timer de match
                     initServoClap();
                     initADC();
-
+                    RentrerAimant();
 
                 }
                 if (!GOUPILLE_OTEE) {
@@ -114,11 +114,11 @@ int main(void) {
             case PRE_MATCH:             // Le robot attend le début du match. On peut encore choisir la couleur
                 if (detectionObstacleSharp().isObstacleDetected){
                     sortirServoClap();
-                    ElectroAimant=1;
+
                  }
                 else{
                  rentrerServoClap();
-                 ElectroAimant=0;
+                 
                 }
                 if (matchStatus != oldMatchStatus) {
                     oldMatchStatus = matchStatus;
@@ -174,7 +174,7 @@ int main(void) {
                             detectionSharp = detectionObstacleSharp();
                             propulsionIsObstacle(detectionSharp.obstacleInfo);
                             obstacle = propulsionGetObstacle();
-                            
+                            infoAction.statut = ACTION_ERREUR;
                             if (obstacle == PROP_IS_NO_OBSTACLE){
                                 infoAction.statut = ACTION_ERREUR;
                                 sortirServoClap();
@@ -241,12 +241,10 @@ actionType choixAction() {
 		indiceAction++;
 	}
         else{
-        // ADD pas à priori faut check !
-
         propulsionAddObstacle(detectionSharp.obstacleInfo);
-       propulsionIsObstacle(detectionSharp.obstacleInfo);
-       propIsObstacleType test =propulsionGetObstacle();
-        STOPED_OBS=0;
+        propulsionIsObstacle(detectionSharp.obstacleInfo);
+        propIsObstacleType test = propulsionGetObstacle();
+                STOPED_OBS=0;
         }
     actionChoisie = ordreActions[indiceAction-1];
 	return(actionChoisie);
@@ -273,7 +271,7 @@ actionType gestionErreur(actionType currentAction) {
                 switch (propulsionGetStatus()) {
                 case STANDING:                                                               // si on est à l'arrêt et en erreur, ce doit être un obstacle (ou un patinage)
                     //if (!compareXYAlpha(propulsionGetPosition(), infoAction.position)) {   // on n'est pas au bon endroit a priori
-                       // nextAction = currentAction;                                        // on réessaye TODO ajouter la gestion d'obstacle
+                        nextAction = choixAction();                                        // on réessaye TODO ajouter la gestion d'obstacle
                         //Denis
                    // }
                   //  if(detectionSharp.isObstacleDetected){

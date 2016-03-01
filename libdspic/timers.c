@@ -17,6 +17,7 @@ volatile unsigned int* const TMRx[5] = {&TMR1, &TMR2, &TMR3, &TMR4, &TMR5};
 //! Vecteur avec les pointeurs vers les registres d'activation des interruptions
 volatile unsigned int* const ISRENx[5] = {&IEC0, &IEC0, &IEC0, &IEC1, &IEC1};
 //! Bit masks pour isoler le bon bit à activer 
+volatile unsigned int* const ISRIFx[5] = {&IFS0, &IFS0, &IFS0, &IFS1, &IFS1};
 unsigned int const ISRMaskx[5] = {0x0008, 0x0080, 0x0100, 0x0800, 0x1000};
 
 //! Pointeurs de fonction vers les fonctions à appeler lors de l'interruption du timer
@@ -159,6 +160,19 @@ timerStatus timerInterrupt(int id, void (*fonction)(void)){
     return TIMER_SUCCESS;
 }
 
+int timerFlag(int id) {
+    if ((id>5) || (id<1)) {
+        while(1);
+    }
+    return (*ISRIFx[id-1] & ISRMaskx[id-1]);
+}
+
+void timerReset(int id) {
+    if(id < 1 || (id > 5 && (id != TIMER_2_3) && (id !=TIMER_4_5)))
+        while(1);
+    *TMRx[id-1] = 0; //remise à zéro du compteur
+    *ISRIFx[id-1] &= (~ISRMaskx[id-1]);
+}
 //
 //void __attribute__((interrupt, auto_psv)) _T1Interrupt(void){
 //    IFS0bits.T1IF = 0;

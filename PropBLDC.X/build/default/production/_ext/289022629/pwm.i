@@ -1,5 +1,5 @@
 # 1 "../libdspic/pwm.c"
-# 1 "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X//"
+# 1 "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../libdspic/pwm.c"

@@ -1,4 +1,4 @@
-
+/*
 // Definition of the clock frequency (in Hz), needed for __delay32()
 #define FCY 40000000UL
 
@@ -242,7 +242,7 @@ int RadioInit(void) {
 					UART_RX_OVERRUN_CLEAR;
 
     OpenUART1(U1MODEvalue, U1STAvalue, baudvalue);
-
+/*
 	// Configures timer3 to generate a timeout interrupt for LMX9830 frame detection
 	T3CONbits.TON = 0;		// stop Timer3
 	TMR3 = 0;				// clear timer3
@@ -366,6 +366,7 @@ int RadioInit(void) {
 //////////////////////////////////////////////////////////////////////////////
 
 /* This is TIMER3 ISR */
+/*
 void __attribute__((__interrupt__, no_auto_psv)) _T3Interrupt(void)
 {
 	// interrupt flag is reset
@@ -384,6 +385,7 @@ void __attribute__((__interrupt__, no_auto_psv)) _T3Interrupt(void)
 
 
 /* This is UART1 transmit ISR */
+/*
 void __attribute__((__interrupt__, no_auto_psv)) _U1TXInterrupt(void)
 {
 	// reset the interrupt flag
@@ -412,7 +414,7 @@ void __attribute__((__interrupt__, no_auto_psv)) _U1TXInterrupt(void)
 
 
 
-/* This is UART1 receive ISR */
+/* This is UART1 receive ISR 
 void __attribute__((__interrupt__, no_auto_psv)) _U1RXInterrupt(void)
 {
 	char data;
@@ -678,6 +680,25 @@ void __attribute__((__interrupt__, no_auto_psv)) _U1RXInterrupt(void)
 }
 
 
+inline void radioSendChar(char data) {
+	int test = 1;
+
+	while(test) {
+		uart1TxIsrDisable();								// on désactive l'interruption de réception pour manipuler les variables de l'ISR
+		if (radioTxDataNb > 0) {							// on attend qu'on puisse écrire au moins un octet dans le buffer d'émission)
+			radioTxDataNb--;									// on met à jour radioTxDataNb
+			radioTxData[radioTxDataEndPtr] = data;				// on écrit l'octet à la fin du buffer d'émission
+			if (++radioTxDataEndPtr >= RADIO_TX_DATA_SIZE) {	// on met à jour le pointeur vers la fin du buffer
+				radioTxDataEndPtr = 0;
+			}
+			test = 0;
+		}
+		uart1TxIsrEnable();									// on réactive l'interruption
+	}
+	if (U1STAbits.UTXBF == 0) {							// Si l'UART n'est pas en train d'envoyer un octet (le buffer d'émission était vide)
+		IFS0bits.U1TXIF = 1;							// on active "manuellement" l'ISR pour démarrer l'envoi
+	}
+}
 
 
 
@@ -710,25 +731,6 @@ inline void uart1TxIsrEnable() {
 
 
 
-inline void radioSendChar(char data) {
-	int test = 1;
-
-	while(test) {
-		uart1TxIsrDisable();								// on désactive l'interruption de réception pour manipuler les variables de l'ISR
-		if (radioTxDataNb > 0) {							// on attend qu'on puisse écrire au moins un octet dans le buffer d'émission)
-			radioTxDataNb--;									// on met à jour radioTxDataNb
-			radioTxData[radioTxDataEndPtr] = data;				// on écrit l'octet à la fin du buffer d'émission
-			if (++radioTxDataEndPtr >= RADIO_TX_DATA_SIZE) {	// on met à jour le pointeur vers la fin du buffer
-				radioTxDataEndPtr = 0;
-			}
-			test = 0;
-		}
-		uart1TxIsrEnable();									// on réactive l'interruption
-	}
-	if (U1STAbits.UTXBF == 0) {							// Si l'UART n'est pas en train d'envoyer un octet (le buffer d'émission était vide)
-		IFS0bits.U1TXIF = 1;							// on active "manuellement" l'ISR pour démarrer l'envoi
-	}
-}
 
 inline char radioGetChar(void) {
 	char data;
@@ -748,4 +750,4 @@ inline char radioGetChar(void) {
 	}
 	return(data);
 }
-
+*/

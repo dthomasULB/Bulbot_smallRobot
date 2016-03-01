@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\BLDC.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\BLDC.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -1472,7 +1472,7 @@ _BldcUpdateSpeed:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x2131
+	.4byte	0x2174
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -1480,8 +1480,9 @@ _BldcUpdateSpeed:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"BLDC.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -1494,12 +1495,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe7
-	.4byte	0x20e
+	.4byte	0x251
 	.uleb128 0x4
 	.asciz	"CN16IE"
 	.byte	0x2
 	.byte	0xe8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -1510,7 +1511,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN17IE"
 	.byte	0x2
 	.byte	0xe9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -1521,7 +1522,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN18IE"
 	.byte	0x2
 	.byte	0xea
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -1532,7 +1533,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN19IE"
 	.byte	0x2
 	.byte	0xeb
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -1543,7 +1544,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN20IE"
 	.byte	0x2
 	.byte	0xec
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -1554,7 +1555,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN21IE"
 	.byte	0x2
 	.byte	0xed
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -1565,7 +1566,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN22IE"
 	.byte	0x2
 	.byte	0xee
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -1576,7 +1577,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN23IE"
 	.byte	0x2
 	.byte	0xef
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -1587,7 +1588,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN24IE"
 	.byte	0x2
 	.byte	0xf0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -1598,7 +1599,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN25IE"
 	.byte	0x2
 	.byte	0xf1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -1609,7 +1610,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN26IE"
 	.byte	0x2
 	.byte	0xf2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -1620,7 +1621,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN27IE"
 	.byte	0x2
 	.byte	0xf3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -1631,7 +1632,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN28IE"
 	.byte	0x2
 	.byte	0xf4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -1642,7 +1643,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN29IE"
 	.byte	0x2
 	.byte	0xf5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -1653,7 +1654,7 @@ _BldcUpdateSpeed:
 	.asciz	"CN30IE"
 	.byte	0x2
 	.byte	0xf6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -1665,17 +1666,17 @@ _BldcUpdateSpeed:
 	.asciz	"CNEN2BITS"
 	.byte	0x2
 	.byte	0xf7
-	.4byte	0xcc
+	.4byte	0x10f
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x160
-	.4byte	0x35a
+	.4byte	0x39d
 	.uleb128 0x7
 	.asciz	"SI2C1IF"
 	.byte	0x2
 	.2byte	0x161
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -1686,7 +1687,7 @@ _BldcUpdateSpeed:
 	.asciz	"MI2C1IF"
 	.byte	0x2
 	.2byte	0x162
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -1697,7 +1698,7 @@ _BldcUpdateSpeed:
 	.asciz	"CMIF"
 	.byte	0x2
 	.2byte	0x163
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -1708,7 +1709,7 @@ _BldcUpdateSpeed:
 	.asciz	"CNIF"
 	.byte	0x2
 	.2byte	0x164
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -1719,7 +1720,7 @@ _BldcUpdateSpeed:
 	.asciz	"INT1IF"
 	.byte	0x2
 	.2byte	0x165
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -1730,7 +1731,7 @@ _BldcUpdateSpeed:
 	.asciz	"IC7IF"
 	.byte	0x2
 	.2byte	0x167
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -1741,7 +1742,7 @@ _BldcUpdateSpeed:
 	.asciz	"IC8IF"
 	.byte	0x2
 	.2byte	0x168
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -1752,7 +1753,7 @@ _BldcUpdateSpeed:
 	.asciz	"DMA2IF"
 	.byte	0x2
 	.2byte	0x169
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -1763,7 +1764,7 @@ _BldcUpdateSpeed:
 	.asciz	"OC3IF"
 	.byte	0x2
 	.2byte	0x16a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -1774,7 +1775,7 @@ _BldcUpdateSpeed:
 	.asciz	"OC4IF"
 	.byte	0x2
 	.2byte	0x16b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -1785,7 +1786,7 @@ _BldcUpdateSpeed:
 	.asciz	"T4IF"
 	.byte	0x2
 	.2byte	0x16c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -1796,7 +1797,7 @@ _BldcUpdateSpeed:
 	.asciz	"T5IF"
 	.byte	0x2
 	.2byte	0x16d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -1807,7 +1808,7 @@ _BldcUpdateSpeed:
 	.asciz	"INT2IF"
 	.byte	0x2
 	.2byte	0x16e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -1818,7 +1819,7 @@ _BldcUpdateSpeed:
 	.asciz	"U2RXIF"
 	.byte	0x2
 	.2byte	0x16f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -1829,7 +1830,7 @@ _BldcUpdateSpeed:
 	.asciz	"U2TXIF"
 	.byte	0x2
 	.2byte	0x170
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -1841,12 +1842,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x172
-	.4byte	0x379
+	.4byte	0x3bc
 	.uleb128 0x7
 	.asciz	"SI2CIF"
 	.byte	0x2
 	.2byte	0x173
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -1858,20 +1859,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x15f
-	.4byte	0x38d
+	.4byte	0x3d0
 	.uleb128 0x9
-	.4byte	0x21f
+	.4byte	0x262
 	.uleb128 0x9
-	.4byte	0x35a
+	.4byte	0x39d
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagIFS1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x15e
-	.4byte	0x3ab
+	.4byte	0x3ee
 	.uleb128 0xb
-	.4byte	0x379
+	.4byte	0x3bc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1880,17 +1881,17 @@ _BldcUpdateSpeed:
 	.asciz	"IFS1BITS"
 	.byte	0x2
 	.2byte	0x176
-	.4byte	0x38d
+	.4byte	0x3d0
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1c1
-	.4byte	0x4f7
+	.4byte	0x53a
 	.uleb128 0x7
 	.asciz	"SI2C1IE"
 	.byte	0x2
 	.2byte	0x1c2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -1901,7 +1902,7 @@ _BldcUpdateSpeed:
 	.asciz	"MI2C1IE"
 	.byte	0x2
 	.2byte	0x1c3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -1912,7 +1913,7 @@ _BldcUpdateSpeed:
 	.asciz	"CMIE"
 	.byte	0x2
 	.2byte	0x1c4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -1923,7 +1924,7 @@ _BldcUpdateSpeed:
 	.asciz	"CNIE"
 	.byte	0x2
 	.2byte	0x1c5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -1934,7 +1935,7 @@ _BldcUpdateSpeed:
 	.asciz	"INT1IE"
 	.byte	0x2
 	.2byte	0x1c6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -1945,7 +1946,7 @@ _BldcUpdateSpeed:
 	.asciz	"IC7IE"
 	.byte	0x2
 	.2byte	0x1c8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -1956,7 +1957,7 @@ _BldcUpdateSpeed:
 	.asciz	"IC8IE"
 	.byte	0x2
 	.2byte	0x1c9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -1967,7 +1968,7 @@ _BldcUpdateSpeed:
 	.asciz	"DMA2IE"
 	.byte	0x2
 	.2byte	0x1ca
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -1978,7 +1979,7 @@ _BldcUpdateSpeed:
 	.asciz	"OC3IE"
 	.byte	0x2
 	.2byte	0x1cb
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -1989,7 +1990,7 @@ _BldcUpdateSpeed:
 	.asciz	"OC4IE"
 	.byte	0x2
 	.2byte	0x1cc
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -2000,7 +2001,7 @@ _BldcUpdateSpeed:
 	.asciz	"T4IE"
 	.byte	0x2
 	.2byte	0x1cd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -2011,7 +2012,7 @@ _BldcUpdateSpeed:
 	.asciz	"T5IE"
 	.byte	0x2
 	.2byte	0x1ce
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -2022,7 +2023,7 @@ _BldcUpdateSpeed:
 	.asciz	"INT2IE"
 	.byte	0x2
 	.2byte	0x1cf
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2033,7 +2034,7 @@ _BldcUpdateSpeed:
 	.asciz	"U2RXIE"
 	.byte	0x2
 	.2byte	0x1d0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -2044,7 +2045,7 @@ _BldcUpdateSpeed:
 	.asciz	"U2TXIE"
 	.byte	0x2
 	.2byte	0x1d1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -2056,12 +2057,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1d3
-	.4byte	0x516
+	.4byte	0x559
 	.uleb128 0x7
 	.asciz	"SI2CIE"
 	.byte	0x2
 	.2byte	0x1d4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2073,20 +2074,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1c0
-	.4byte	0x52a
+	.4byte	0x56d
 	.uleb128 0x9
-	.4byte	0x3bc
+	.4byte	0x3ff
 	.uleb128 0x9
-	.4byte	0x4f7
+	.4byte	0x53a
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagIEC1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1bf
-	.4byte	0x548
+	.4byte	0x58b
 	.uleb128 0xb
-	.4byte	0x516
+	.4byte	0x559
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2095,17 +2096,17 @@ _BldcUpdateSpeed:
 	.asciz	"IEC1BITS"
 	.byte	0x2
 	.2byte	0x1d7
-	.4byte	0x52a
+	.4byte	0x56d
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x443
-	.4byte	0x5d5
+	.4byte	0x618
 	.uleb128 0x7
 	.asciz	"TCS"
 	.byte	0x2
 	.2byte	0x445
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2116,7 +2117,7 @@ _BldcUpdateSpeed:
 	.asciz	"T32"
 	.byte	0x2
 	.2byte	0x447
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2127,7 +2128,7 @@ _BldcUpdateSpeed:
 	.asciz	"TCKPS"
 	.byte	0x2
 	.2byte	0x448
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -2138,7 +2139,7 @@ _BldcUpdateSpeed:
 	.asciz	"TGATE"
 	.byte	0x2
 	.2byte	0x449
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -2149,7 +2150,7 @@ _BldcUpdateSpeed:
 	.asciz	"TSIDL"
 	.byte	0x2
 	.2byte	0x44b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2160,7 +2161,7 @@ _BldcUpdateSpeed:
 	.asciz	"TON"
 	.byte	0x2
 	.2byte	0x44d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -2172,12 +2173,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x44f
-	.4byte	0x609
+	.4byte	0x64c
 	.uleb128 0x7
 	.asciz	"TCKPS0"
 	.byte	0x2
 	.2byte	0x451
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2188,7 +2189,7 @@ _BldcUpdateSpeed:
 	.asciz	"TCKPS1"
 	.byte	0x2
 	.2byte	0x452
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -2200,20 +2201,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x442
-	.4byte	0x61d
+	.4byte	0x660
 	.uleb128 0x9
-	.4byte	0x559
+	.4byte	0x59c
 	.uleb128 0x9
-	.4byte	0x5d5
+	.4byte	0x618
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagT2CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x441
-	.4byte	0x63c
+	.4byte	0x67f
 	.uleb128 0xb
-	.4byte	0x609
+	.4byte	0x64c
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2222,17 +2223,17 @@ _BldcUpdateSpeed:
 	.asciz	"T2CONBITS"
 	.byte	0x2
 	.2byte	0x455
-	.4byte	0x61d
+	.4byte	0x660
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x552
-	.4byte	0x6a0
+	.4byte	0x6e3
 	.uleb128 0x7
 	.asciz	"OCM"
 	.byte	0x2
 	.2byte	0x553
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -2243,7 +2244,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x554
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2254,7 +2255,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x555
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2265,7 +2266,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x557
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2277,12 +2278,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x559
-	.4byte	0x6e3
+	.4byte	0x726
 	.uleb128 0x7
 	.asciz	"OCM0"
 	.byte	0x2
 	.2byte	0x55a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2293,7 +2294,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM1"
 	.byte	0x2
 	.2byte	0x55b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2304,7 +2305,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM2"
 	.byte	0x2
 	.2byte	0x55c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2316,20 +2317,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x551
-	.4byte	0x6f7
+	.4byte	0x73a
 	.uleb128 0x9
-	.4byte	0x64e
+	.4byte	0x691
 	.uleb128 0x9
-	.4byte	0x6a0
+	.4byte	0x6e3
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagOC1CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x550
-	.4byte	0x717
+	.4byte	0x75a
 	.uleb128 0xb
-	.4byte	0x6e3
+	.4byte	0x726
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2338,17 +2339,17 @@ _BldcUpdateSpeed:
 	.asciz	"OC1CONBITS"
 	.byte	0x2
 	.2byte	0x55f
-	.4byte	0x6f7
+	.4byte	0x73a
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x56a
-	.4byte	0x77c
+	.4byte	0x7bf
 	.uleb128 0x7
 	.asciz	"OCM"
 	.byte	0x2
 	.2byte	0x56b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -2359,7 +2360,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x56c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2370,7 +2371,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x56d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2381,7 +2382,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x56f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2393,12 +2394,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x571
-	.4byte	0x7bf
+	.4byte	0x802
 	.uleb128 0x7
 	.asciz	"OCM0"
 	.byte	0x2
 	.2byte	0x572
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2409,7 +2410,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM1"
 	.byte	0x2
 	.2byte	0x573
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2420,7 +2421,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM2"
 	.byte	0x2
 	.2byte	0x574
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2432,20 +2433,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x569
-	.4byte	0x7d3
+	.4byte	0x816
 	.uleb128 0x9
-	.4byte	0x72a
+	.4byte	0x76d
 	.uleb128 0x9
-	.4byte	0x77c
+	.4byte	0x7bf
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagOC2CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x568
-	.4byte	0x7f3
+	.4byte	0x836
 	.uleb128 0xb
-	.4byte	0x7bf
+	.4byte	0x802
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2454,17 +2455,17 @@ _BldcUpdateSpeed:
 	.asciz	"OC2CONBITS"
 	.byte	0x2
 	.2byte	0x577
-	.4byte	0x7d3
+	.4byte	0x816
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x582
-	.4byte	0x858
+	.4byte	0x89b
 	.uleb128 0x7
 	.asciz	"OCM"
 	.byte	0x2
 	.2byte	0x583
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -2475,7 +2476,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x584
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2486,7 +2487,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x585
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2497,7 +2498,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x587
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2509,12 +2510,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x589
-	.4byte	0x89b
+	.4byte	0x8de
 	.uleb128 0x7
 	.asciz	"OCM0"
 	.byte	0x2
 	.2byte	0x58a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2525,7 +2526,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM1"
 	.byte	0x2
 	.2byte	0x58b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2536,7 +2537,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM2"
 	.byte	0x2
 	.2byte	0x58c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2548,20 +2549,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x581
-	.4byte	0x8af
+	.4byte	0x8f2
 	.uleb128 0x9
-	.4byte	0x806
+	.4byte	0x849
 	.uleb128 0x9
-	.4byte	0x858
+	.4byte	0x89b
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagOC3CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x580
-	.4byte	0x8cf
+	.4byte	0x912
 	.uleb128 0xb
-	.4byte	0x89b
+	.4byte	0x8de
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2570,17 +2571,17 @@ _BldcUpdateSpeed:
 	.asciz	"OC3CONBITS"
 	.byte	0x2
 	.2byte	0x58f
-	.4byte	0x8af
+	.4byte	0x8f2
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x59a
-	.4byte	0x934
+	.4byte	0x977
 	.uleb128 0x7
 	.asciz	"OCM"
 	.byte	0x2
 	.2byte	0x59b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -2591,7 +2592,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x59c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2602,7 +2603,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x59d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2613,7 +2614,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x59f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2625,12 +2626,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5a1
-	.4byte	0x977
+	.4byte	0x9ba
 	.uleb128 0x7
 	.asciz	"OCM0"
 	.byte	0x2
 	.2byte	0x5a2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2641,7 +2642,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM1"
 	.byte	0x2
 	.2byte	0x5a3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2652,7 +2653,7 @@ _BldcUpdateSpeed:
 	.asciz	"OCM2"
 	.byte	0x2
 	.2byte	0x5a4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2664,20 +2665,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x599
-	.4byte	0x98b
+	.4byte	0x9ce
 	.uleb128 0x9
-	.4byte	0x8e2
+	.4byte	0x925
 	.uleb128 0x9
-	.4byte	0x934
+	.4byte	0x977
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagOC4CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x598
-	.4byte	0x9ab
+	.4byte	0x9ee
 	.uleb128 0xb
-	.4byte	0x977
+	.4byte	0x9ba
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2686,17 +2687,17 @@ _BldcUpdateSpeed:
 	.asciz	"OC4CONBITS"
 	.byte	0x2
 	.2byte	0x5a7
-	.4byte	0x98b
+	.4byte	0x9ce
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5ae
-	.4byte	0xa2d
+	.4byte	0xa70
 	.uleb128 0x7
 	.asciz	"PTMOD"
 	.byte	0x2
 	.2byte	0x5af
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe
@@ -2707,7 +2708,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTCKPS"
 	.byte	0x2
 	.2byte	0x5b0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x2
 	.byte	0xc
@@ -2718,7 +2719,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTOPS"
 	.byte	0x2
 	.2byte	0x5b1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x4
 	.byte	0x8
@@ -2729,7 +2730,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTSIDL"
 	.byte	0x2
 	.2byte	0x5b3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -2740,7 +2741,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTEN"
 	.byte	0x2
 	.2byte	0x5b5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -2752,12 +2753,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5b7
-	.4byte	0xae1
+	.4byte	0xb24
 	.uleb128 0x7
 	.asciz	"PTMOD0"
 	.byte	0x2
 	.2byte	0x5b8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2768,7 +2769,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTMOD1"
 	.byte	0x2
 	.2byte	0x5b9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2779,7 +2780,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTCKPS0"
 	.byte	0x2
 	.2byte	0x5ba
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2790,7 +2791,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTCKPS1"
 	.byte	0x2
 	.2byte	0x5bb
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -2801,7 +2802,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTOPS0"
 	.byte	0x2
 	.2byte	0x5bc
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2812,7 +2813,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTOPS1"
 	.byte	0x2
 	.2byte	0x5bd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -2823,7 +2824,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTOPS2"
 	.byte	0x2
 	.2byte	0x5be
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -2834,7 +2835,7 @@ _BldcUpdateSpeed:
 	.asciz	"PTOPS3"
 	.byte	0x2
 	.2byte	0x5bf
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -2846,20 +2847,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5ad
-	.4byte	0xaf5
+	.4byte	0xb38
 	.uleb128 0x9
-	.4byte	0x9be
+	.4byte	0xa01
 	.uleb128 0x9
-	.4byte	0xa2d
+	.4byte	0xa70
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagP1TCONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5ac
-	.4byte	0xb15
+	.4byte	0xb58
 	.uleb128 0xb
-	.4byte	0xae1
+	.4byte	0xb24
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -2868,18 +2869,18 @@ _BldcUpdateSpeed:
 	.asciz	"P1TCONBITS"
 	.byte	0x2
 	.2byte	0x5c2
-	.4byte	0xaf5
+	.4byte	0xb38
 	.uleb128 0xa
 	.asciz	"tagPWM1CON1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x610
-	.4byte	0xbf6
+	.4byte	0xc39
 	.uleb128 0x7
 	.asciz	"PEN1L"
 	.byte	0x2
 	.2byte	0x611
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -2890,7 +2891,7 @@ _BldcUpdateSpeed:
 	.asciz	"PEN2L"
 	.byte	0x2
 	.2byte	0x612
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -2901,7 +2902,7 @@ _BldcUpdateSpeed:
 	.asciz	"PEN3L"
 	.byte	0x2
 	.2byte	0x613
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -2912,7 +2913,7 @@ _BldcUpdateSpeed:
 	.asciz	"PEN1H"
 	.byte	0x2
 	.2byte	0x615
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -2923,7 +2924,7 @@ _BldcUpdateSpeed:
 	.asciz	"PEN2H"
 	.byte	0x2
 	.2byte	0x616
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -2934,7 +2935,7 @@ _BldcUpdateSpeed:
 	.asciz	"PEN3H"
 	.byte	0x2
 	.2byte	0x617
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -2945,7 +2946,7 @@ _BldcUpdateSpeed:
 	.asciz	"PMOD1"
 	.byte	0x2
 	.2byte	0x619
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -2956,7 +2957,7 @@ _BldcUpdateSpeed:
 	.asciz	"PMOD2"
 	.byte	0x2
 	.2byte	0x61a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -2967,7 +2968,7 @@ _BldcUpdateSpeed:
 	.asciz	"PMOD3"
 	.byte	0x2
 	.2byte	0x61b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -2979,18 +2980,18 @@ _BldcUpdateSpeed:
 	.asciz	"PWM1CON1BITS"
 	.byte	0x2
 	.2byte	0x61c
-	.4byte	0xb28
+	.4byte	0xb6b
 	.uleb128 0xa
 	.asciz	"tagTRISABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x975
-	.4byte	0xce0
+	.4byte	0xd23
 	.uleb128 0x7
 	.asciz	"TRISA0"
 	.byte	0x2
 	.2byte	0x976
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3001,7 +3002,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA1"
 	.byte	0x2
 	.2byte	0x977
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3012,7 +3013,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA2"
 	.byte	0x2
 	.2byte	0x978
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3023,7 +3024,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA3"
 	.byte	0x2
 	.2byte	0x979
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3034,7 +3035,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA4"
 	.byte	0x2
 	.2byte	0x97a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3045,7 +3046,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA7"
 	.byte	0x2
 	.2byte	0x97c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3056,7 +3057,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA8"
 	.byte	0x2
 	.2byte	0x97d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3067,7 +3068,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA9"
 	.byte	0x2
 	.2byte	0x97e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3078,7 +3079,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISA10"
 	.byte	0x2
 	.2byte	0x97f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -3090,18 +3091,18 @@ _BldcUpdateSpeed:
 	.asciz	"TRISABITS"
 	.byte	0x2
 	.2byte	0x980
-	.4byte	0xc0b
+	.4byte	0xc4e
 	.uleb128 0xa
 	.asciz	"tagLATABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x995
-	.4byte	0xdbd
+	.4byte	0xe00
 	.uleb128 0x7
 	.asciz	"LATA0"
 	.byte	0x2
 	.2byte	0x996
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3112,7 +3113,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA1"
 	.byte	0x2
 	.2byte	0x997
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3123,7 +3124,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA2"
 	.byte	0x2
 	.2byte	0x998
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3134,7 +3135,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA3"
 	.byte	0x2
 	.2byte	0x999
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3145,7 +3146,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA4"
 	.byte	0x2
 	.2byte	0x99a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3156,7 +3157,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA7"
 	.byte	0x2
 	.2byte	0x99c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3167,7 +3168,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA8"
 	.byte	0x2
 	.2byte	0x99d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3178,7 +3179,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA9"
 	.byte	0x2
 	.2byte	0x99e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3189,7 +3190,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATA10"
 	.byte	0x2
 	.2byte	0x99f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -3201,18 +3202,18 @@ _BldcUpdateSpeed:
 	.asciz	"LATABITS"
 	.byte	0x2
 	.2byte	0x9a0
-	.4byte	0xcf2
+	.4byte	0xd35
 	.uleb128 0xa
 	.asciz	"tagTRISBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x9b5
-	.4byte	0xf3b
+	.4byte	0xf7e
 	.uleb128 0x7
 	.asciz	"TRISB0"
 	.byte	0x2
 	.2byte	0x9b6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3223,7 +3224,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB1"
 	.byte	0x2
 	.2byte	0x9b7
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3234,7 +3235,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB2"
 	.byte	0x2
 	.2byte	0x9b8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3245,7 +3246,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB3"
 	.byte	0x2
 	.2byte	0x9b9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3256,7 +3257,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB4"
 	.byte	0x2
 	.2byte	0x9ba
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3267,7 +3268,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB5"
 	.byte	0x2
 	.2byte	0x9bb
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -3278,7 +3279,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB6"
 	.byte	0x2
 	.2byte	0x9bc
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -3289,7 +3290,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB7"
 	.byte	0x2
 	.2byte	0x9bd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3300,7 +3301,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB8"
 	.byte	0x2
 	.2byte	0x9be
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3311,7 +3312,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB9"
 	.byte	0x2
 	.2byte	0x9bf
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3322,7 +3323,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB10"
 	.byte	0x2
 	.2byte	0x9c0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -3333,7 +3334,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB11"
 	.byte	0x2
 	.2byte	0x9c1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -3344,7 +3345,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB12"
 	.byte	0x2
 	.2byte	0x9c2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -3355,7 +3356,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB13"
 	.byte	0x2
 	.2byte	0x9c3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -3366,7 +3367,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB14"
 	.byte	0x2
 	.2byte	0x9c4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -3377,7 +3378,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISB15"
 	.byte	0x2
 	.2byte	0x9c5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -3389,18 +3390,18 @@ _BldcUpdateSpeed:
 	.asciz	"TRISBBITS"
 	.byte	0x2
 	.2byte	0x9c6
-	.4byte	0xdce
+	.4byte	0xe11
 	.uleb128 0xa
 	.asciz	"tagPORTBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x9cb
-	.4byte	0x108a
+	.4byte	0x10cd
 	.uleb128 0x7
 	.asciz	"RB0"
 	.byte	0x2
 	.2byte	0x9cc
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3411,7 +3412,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB1"
 	.byte	0x2
 	.2byte	0x9cd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3422,7 +3423,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB2"
 	.byte	0x2
 	.2byte	0x9ce
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3433,7 +3434,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB3"
 	.byte	0x2
 	.2byte	0x9cf
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3444,7 +3445,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB4"
 	.byte	0x2
 	.2byte	0x9d0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3455,7 +3456,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB5"
 	.byte	0x2
 	.2byte	0x9d1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -3466,7 +3467,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB6"
 	.byte	0x2
 	.2byte	0x9d2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -3477,7 +3478,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB7"
 	.byte	0x2
 	.2byte	0x9d3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3488,7 +3489,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB8"
 	.byte	0x2
 	.2byte	0x9d4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3499,7 +3500,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB9"
 	.byte	0x2
 	.2byte	0x9d5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3510,7 +3511,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB10"
 	.byte	0x2
 	.2byte	0x9d6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -3521,7 +3522,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB11"
 	.byte	0x2
 	.2byte	0x9d7
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -3532,7 +3533,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB12"
 	.byte	0x2
 	.2byte	0x9d8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -3543,7 +3544,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB13"
 	.byte	0x2
 	.2byte	0x9d9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -3554,7 +3555,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB14"
 	.byte	0x2
 	.2byte	0x9da
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -3565,7 +3566,7 @@ _BldcUpdateSpeed:
 	.asciz	"RB15"
 	.byte	0x2
 	.2byte	0x9db
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -3577,18 +3578,18 @@ _BldcUpdateSpeed:
 	.asciz	"PORTBBITS"
 	.byte	0x2
 	.2byte	0x9dc
-	.4byte	0xf4d
+	.4byte	0xf90
 	.uleb128 0xa
 	.asciz	"tagLATBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x9e1
-	.4byte	0x11f8
+	.4byte	0x123b
 	.uleb128 0x7
 	.asciz	"LATB0"
 	.byte	0x2
 	.2byte	0x9e2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3599,7 +3600,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB1"
 	.byte	0x2
 	.2byte	0x9e3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3610,7 +3611,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB2"
 	.byte	0x2
 	.2byte	0x9e4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3621,7 +3622,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB3"
 	.byte	0x2
 	.2byte	0x9e5
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3632,7 +3633,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB4"
 	.byte	0x2
 	.2byte	0x9e6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3643,7 +3644,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB5"
 	.byte	0x2
 	.2byte	0x9e7
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -3654,7 +3655,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB6"
 	.byte	0x2
 	.2byte	0x9e8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -3665,7 +3666,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB7"
 	.byte	0x2
 	.2byte	0x9e9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3676,7 +3677,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB8"
 	.byte	0x2
 	.2byte	0x9ea
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3687,7 +3688,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB9"
 	.byte	0x2
 	.2byte	0x9eb
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3698,7 +3699,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB10"
 	.byte	0x2
 	.2byte	0x9ec
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -3709,7 +3710,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB11"
 	.byte	0x2
 	.2byte	0x9ed
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -3720,7 +3721,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB12"
 	.byte	0x2
 	.2byte	0x9ee
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -3731,7 +3732,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB13"
 	.byte	0x2
 	.2byte	0x9ef
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -3742,7 +3743,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB14"
 	.byte	0x2
 	.2byte	0x9f0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -3753,7 +3754,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATB15"
 	.byte	0x2
 	.2byte	0x9f1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -3765,18 +3766,18 @@ _BldcUpdateSpeed:
 	.asciz	"LATBBITS"
 	.byte	0x2
 	.2byte	0x9f2
-	.4byte	0x109c
+	.4byte	0x10df
 	.uleb128 0xa
 	.asciz	"tagTRISCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xa0d
-	.4byte	0x12f2
+	.4byte	0x1335
 	.uleb128 0x7
 	.asciz	"TRISC0"
 	.byte	0x2
 	.2byte	0xa0e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3787,7 +3788,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC1"
 	.byte	0x2
 	.2byte	0xa0f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3798,7 +3799,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC2"
 	.byte	0x2
 	.2byte	0xa10
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3809,7 +3810,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC3"
 	.byte	0x2
 	.2byte	0xa11
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3820,7 +3821,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC4"
 	.byte	0x2
 	.2byte	0xa12
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3831,7 +3832,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC5"
 	.byte	0x2
 	.2byte	0xa13
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -3842,7 +3843,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC6"
 	.byte	0x2
 	.2byte	0xa14
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -3853,7 +3854,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC7"
 	.byte	0x2
 	.2byte	0xa15
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3864,7 +3865,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC8"
 	.byte	0x2
 	.2byte	0xa16
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3875,7 +3876,7 @@ _BldcUpdateSpeed:
 	.asciz	"TRISC9"
 	.byte	0x2
 	.2byte	0xa17
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -3887,18 +3888,18 @@ _BldcUpdateSpeed:
 	.asciz	"TRISCBITS"
 	.byte	0x2
 	.2byte	0xa18
-	.4byte	0x1209
+	.4byte	0x124c
 	.uleb128 0xa
 	.asciz	"tagPORTCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xa1d
-	.4byte	0x13cf
+	.4byte	0x1412
 	.uleb128 0x7
 	.asciz	"RC0"
 	.byte	0x2
 	.2byte	0xa1e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -3909,7 +3910,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC1"
 	.byte	0x2
 	.2byte	0xa1f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -3920,7 +3921,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC2"
 	.byte	0x2
 	.2byte	0xa20
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -3931,7 +3932,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC3"
 	.byte	0x2
 	.2byte	0xa21
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -3942,7 +3943,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC4"
 	.byte	0x2
 	.2byte	0xa22
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -3953,7 +3954,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC5"
 	.byte	0x2
 	.2byte	0xa23
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -3964,7 +3965,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC6"
 	.byte	0x2
 	.2byte	0xa24
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -3975,7 +3976,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC7"
 	.byte	0x2
 	.2byte	0xa25
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -3986,7 +3987,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC8"
 	.byte	0x2
 	.2byte	0xa26
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -3997,7 +3998,7 @@ _BldcUpdateSpeed:
 	.asciz	"RC9"
 	.byte	0x2
 	.2byte	0xa27
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4009,18 +4010,18 @@ _BldcUpdateSpeed:
 	.asciz	"PORTCBITS"
 	.byte	0x2
 	.2byte	0xa28
-	.4byte	0x1304
+	.4byte	0x1347
 	.uleb128 0xa
 	.asciz	"tagLATCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xa2d
-	.4byte	0x14bf
+	.4byte	0x1502
 	.uleb128 0x7
 	.asciz	"LATC0"
 	.byte	0x2
 	.2byte	0xa2e
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -4031,7 +4032,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC1"
 	.byte	0x2
 	.2byte	0xa2f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -4042,7 +4043,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC2"
 	.byte	0x2
 	.2byte	0xa30
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -4053,7 +4054,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC3"
 	.byte	0x2
 	.2byte	0xa31
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -4064,7 +4065,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC4"
 	.byte	0x2
 	.2byte	0xa32
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -4075,7 +4076,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC5"
 	.byte	0x2
 	.2byte	0xa33
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -4086,7 +4087,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC6"
 	.byte	0x2
 	.2byte	0xa34
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -4097,7 +4098,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC7"
 	.byte	0x2
 	.2byte	0xa35
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -4108,7 +4109,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC8"
 	.byte	0x2
 	.2byte	0xa36
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -4119,7 +4120,7 @@ _BldcUpdateSpeed:
 	.asciz	"LATC9"
 	.byte	0x2
 	.2byte	0xa37
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4131,17 +4132,17 @@ _BldcUpdateSpeed:
 	.asciz	"LATCBITS"
 	.byte	0x2
 	.2byte	0xa38
-	.4byte	0x13e1
+	.4byte	0x1424
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x180a
-	.4byte	0x1500
+	.4byte	0x1543
 	.uleb128 0x7
 	.asciz	"RP2R"
 	.byte	0x2
 	.2byte	0x180b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -4152,7 +4153,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R"
 	.byte	0x2
 	.2byte	0x180d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0x3
@@ -4164,12 +4165,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x180f
-	.4byte	0x15d2
+	.4byte	0x1615
 	.uleb128 0x7
 	.asciz	"RP2R0"
 	.byte	0x2
 	.2byte	0x1810
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -4180,7 +4181,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP2R1"
 	.byte	0x2
 	.2byte	0x1811
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -4191,7 +4192,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP2R2"
 	.byte	0x2
 	.2byte	0x1812
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -4202,7 +4203,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP2R3"
 	.byte	0x2
 	.2byte	0x1813
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -4213,7 +4214,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP2R4"
 	.byte	0x2
 	.2byte	0x1814
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -4224,7 +4225,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R0"
 	.byte	0x2
 	.2byte	0x1816
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -4235,7 +4236,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R1"
 	.byte	0x2
 	.2byte	0x1817
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4246,7 +4247,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R2"
 	.byte	0x2
 	.2byte	0x1818
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -4257,7 +4258,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R3"
 	.byte	0x2
 	.2byte	0x1819
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -4268,7 +4269,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP3R4"
 	.byte	0x2
 	.2byte	0x181a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -4280,20 +4281,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1809
-	.4byte	0x15e6
+	.4byte	0x1629
 	.uleb128 0x9
-	.4byte	0x14d0
+	.4byte	0x1513
 	.uleb128 0x9
-	.4byte	0x1500
+	.4byte	0x1543
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagRPOR1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1808
-	.4byte	0x1605
+	.4byte	0x1648
 	.uleb128 0xb
-	.4byte	0x15d2
+	.4byte	0x1615
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -4302,17 +4303,17 @@ _BldcUpdateSpeed:
 	.asciz	"RPOR1BITS"
 	.byte	0x2
 	.2byte	0x181d
-	.4byte	0x15e6
+	.4byte	0x1629
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x188c
-	.4byte	0x1649
+	.4byte	0x168c
 	.uleb128 0x7
 	.asciz	"RP12R"
 	.byte	0x2
 	.2byte	0x188d
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -4323,7 +4324,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R"
 	.byte	0x2
 	.2byte	0x188f
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0x3
@@ -4335,12 +4336,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1891
-	.4byte	0x1725
+	.4byte	0x1768
 	.uleb128 0x7
 	.asciz	"RP12R0"
 	.byte	0x2
 	.2byte	0x1892
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -4351,7 +4352,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP12R1"
 	.byte	0x2
 	.2byte	0x1893
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -4362,7 +4363,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP12R2"
 	.byte	0x2
 	.2byte	0x1894
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -4373,7 +4374,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP12R3"
 	.byte	0x2
 	.2byte	0x1895
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -4384,7 +4385,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP12R4"
 	.byte	0x2
 	.2byte	0x1896
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -4395,7 +4396,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R0"
 	.byte	0x2
 	.2byte	0x1898
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -4406,7 +4407,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R1"
 	.byte	0x2
 	.2byte	0x1899
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4417,7 +4418,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R2"
 	.byte	0x2
 	.2byte	0x189a
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -4428,7 +4429,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R3"
 	.byte	0x2
 	.2byte	0x189b
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -4439,7 +4440,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP13R4"
 	.byte	0x2
 	.2byte	0x189c
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -4451,20 +4452,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x188b
-	.4byte	0x1739
+	.4byte	0x177c
 	.uleb128 0x9
-	.4byte	0x1617
+	.4byte	0x165a
 	.uleb128 0x9
-	.4byte	0x1649
+	.4byte	0x168c
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagRPOR6BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x188a
-	.4byte	0x1758
+	.4byte	0x179b
 	.uleb128 0xb
-	.4byte	0x1725
+	.4byte	0x1768
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -4473,17 +4474,17 @@ _BldcUpdateSpeed:
 	.asciz	"RPOR6BITS"
 	.byte	0x2
 	.2byte	0x189f
-	.4byte	0x1739
+	.4byte	0x177c
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18c0
-	.4byte	0x179c
+	.4byte	0x17df
 	.uleb128 0x7
 	.asciz	"RP16R"
 	.byte	0x2
 	.2byte	0x18c1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -4494,7 +4495,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R"
 	.byte	0x2
 	.2byte	0x18c3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0x3
@@ -4506,12 +4507,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18c5
-	.4byte	0x1878
+	.4byte	0x18bb
 	.uleb128 0x7
 	.asciz	"RP16R0"
 	.byte	0x2
 	.2byte	0x18c6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -4522,7 +4523,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP16R1"
 	.byte	0x2
 	.2byte	0x18c7
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -4533,7 +4534,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP16R2"
 	.byte	0x2
 	.2byte	0x18c8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -4544,7 +4545,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP16R3"
 	.byte	0x2
 	.2byte	0x18c9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -4555,7 +4556,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP16R4"
 	.byte	0x2
 	.2byte	0x18ca
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -4566,7 +4567,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R0"
 	.byte	0x2
 	.2byte	0x18cc
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -4577,7 +4578,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R1"
 	.byte	0x2
 	.2byte	0x18cd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4588,7 +4589,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R2"
 	.byte	0x2
 	.2byte	0x18ce
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -4599,7 +4600,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R3"
 	.byte	0x2
 	.2byte	0x18cf
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -4610,7 +4611,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP17R4"
 	.byte	0x2
 	.2byte	0x18d0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -4622,20 +4623,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18bf
-	.4byte	0x188c
+	.4byte	0x18cf
 	.uleb128 0x9
-	.4byte	0x176a
+	.4byte	0x17ad
 	.uleb128 0x9
-	.4byte	0x179c
+	.4byte	0x17df
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagRPOR8BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18be
-	.4byte	0x18ab
+	.4byte	0x18ee
 	.uleb128 0xb
-	.4byte	0x1878
+	.4byte	0x18bb
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -4644,17 +4645,17 @@ _BldcUpdateSpeed:
 	.asciz	"RPOR8BITS"
 	.byte	0x2
 	.2byte	0x18d3
-	.4byte	0x188c
+	.4byte	0x18cf
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18da
-	.4byte	0x18ef
+	.4byte	0x1932
 	.uleb128 0x7
 	.asciz	"RP18R"
 	.byte	0x2
 	.2byte	0x18db
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -4665,7 +4666,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R"
 	.byte	0x2
 	.2byte	0x18dd
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x5
 	.byte	0x3
@@ -4677,12 +4678,12 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18df
-	.4byte	0x19cb
+	.4byte	0x1a0e
 	.uleb128 0x7
 	.asciz	"RP18R0"
 	.byte	0x2
 	.2byte	0x18e0
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -4693,7 +4694,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP18R1"
 	.byte	0x2
 	.2byte	0x18e1
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -4704,7 +4705,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP18R2"
 	.byte	0x2
 	.2byte	0x18e2
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -4715,7 +4716,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP18R3"
 	.byte	0x2
 	.2byte	0x18e3
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -4726,7 +4727,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP18R4"
 	.byte	0x2
 	.2byte	0x18e4
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -4737,7 +4738,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R0"
 	.byte	0x2
 	.2byte	0x18e6
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -4748,7 +4749,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R1"
 	.byte	0x2
 	.2byte	0x18e7
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -4759,7 +4760,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R2"
 	.byte	0x2
 	.2byte	0x18e8
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -4770,7 +4771,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R3"
 	.byte	0x2
 	.2byte	0x18e9
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -4781,7 +4782,7 @@ _BldcUpdateSpeed:
 	.asciz	"RP19R4"
 	.byte	0x2
 	.2byte	0x18ea
-	.4byte	0xbc
+	.4byte	0xff
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -4793,20 +4794,20 @@ _BldcUpdateSpeed:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18d9
-	.4byte	0x19df
+	.4byte	0x1a22
 	.uleb128 0x9
-	.4byte	0x18bd
+	.4byte	0x1900
 	.uleb128 0x9
-	.4byte	0x18ef
+	.4byte	0x1932
 	.byte	0x0
 	.uleb128 0xa
 	.asciz	"tagRPOR9BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18d8
-	.4byte	0x19fe
+	.4byte	0x1a41
 	.uleb128 0xb
-	.4byte	0x19cb
+	.4byte	0x1a0e
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -4815,17 +4816,17 @@ _BldcUpdateSpeed:
 	.asciz	"RPOR9BITS"
 	.byte	0x2
 	.2byte	0x18ed
-	.4byte	0x19df
+	.4byte	0x1a22
 	.uleb128 0xe
 	.byte	0x8
 	.byte	0x1
 	.byte	0x2e
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.uleb128 0xf
 	.asciz	"rightPwm"
 	.byte	0x1
 	.byte	0x2f
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -4833,7 +4834,7 @@ _BldcUpdateSpeed:
 	.asciz	"leftPwm"
 	.byte	0x1
 	.byte	0x30
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -4841,7 +4842,7 @@ _BldcUpdateSpeed:
 	.asciz	"rightCw"
 	.byte	0x1
 	.byte	0x31
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -4849,7 +4850,7 @@ _BldcUpdateSpeed:
 	.asciz	"leftCw"
 	.byte	0x1
 	.byte	0x32
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x6
@@ -4908,12 +4909,12 @@ _BldcUpdateSpeed:
 	.4byte	.LFE4
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x1b2b
+	.4byte	0x1b6e
 	.uleb128 0x12
 	.asciz	"dutyCycleRight"
 	.byte	0x1
 	.byte	0xc7
-	.4byte	0x1b2b
+	.4byte	0x1b6e
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -4921,7 +4922,7 @@ _BldcUpdateSpeed:
 	.asciz	"dutyCycleLeft"
 	.byte	0x1
 	.byte	0xc7
-	.4byte	0x1b2b
+	.4byte	0x1b6e
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -4944,592 +4945,592 @@ _BldcUpdateSpeed:
 	.4byte	.LASF3
 	.byte	0x2
 	.byte	0xf8
-	.4byte	0x1b60
+	.4byte	0x1ba3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x20e
+	.4byte	0x251
 	.uleb128 0x15
 	.4byte	.LASF4
 	.byte	0x2
 	.2byte	0x177
-	.4byte	0x1b73
+	.4byte	0x1bb6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x3ab
+	.4byte	0x3ee
 	.uleb128 0x15
 	.4byte	.LASF5
 	.byte	0x2
 	.2byte	0x1d8
-	.4byte	0x1b86
+	.4byte	0x1bc9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x548
+	.4byte	0x58b
 	.uleb128 0x16
 	.asciz	"TMR2"
 	.byte	0x2
 	.2byte	0x436
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xbc
+	.4byte	0xff
 	.uleb128 0x16
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x43c
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF6
 	.byte	0x2
 	.2byte	0x456
-	.4byte	0x1bbb
+	.4byte	0x1bfe
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x63c
+	.4byte	0x67f
 	.uleb128 0x16
 	.asciz	"OC1RS"
 	.byte	0x2
 	.2byte	0x54b
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC1R"
 	.byte	0x2
 	.2byte	0x54d
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF7
 	.byte	0x2
 	.2byte	0x560
-	.4byte	0x1bed
+	.4byte	0x1c30
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x717
+	.4byte	0x75a
 	.uleb128 0x16
 	.asciz	"OC2RS"
 	.byte	0x2
 	.2byte	0x563
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC2R"
 	.byte	0x2
 	.2byte	0x565
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF8
 	.byte	0x2
 	.2byte	0x578
-	.4byte	0x1c1f
+	.4byte	0x1c62
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x7f3
+	.4byte	0x836
 	.uleb128 0x16
 	.asciz	"OC3RS"
 	.byte	0x2
 	.2byte	0x57b
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC3R"
 	.byte	0x2
 	.2byte	0x57d
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF9
 	.byte	0x2
 	.2byte	0x590
-	.4byte	0x1c51
+	.4byte	0x1c94
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x8cf
+	.4byte	0x912
 	.uleb128 0x16
 	.asciz	"OC4RS"
 	.byte	0x2
 	.2byte	0x593
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC4R"
 	.byte	0x2
 	.2byte	0x595
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF10
 	.byte	0x2
 	.2byte	0x5a8
-	.4byte	0x1c83
+	.4byte	0x1cc6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x9ab
+	.4byte	0x9ee
 	.uleb128 0x15
 	.4byte	.LASF11
 	.byte	0x2
 	.2byte	0x5c3
-	.4byte	0x1c96
+	.4byte	0x1cd9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xb15
+	.4byte	0xb58
 	.uleb128 0x16
 	.asciz	"P1TPER"
 	.byte	0x2
 	.2byte	0x5f1
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF12
 	.byte	0x2
 	.2byte	0x61d
-	.4byte	0x1cba
+	.4byte	0x1cfd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xbf6
+	.4byte	0xc39
 	.uleb128 0x16
 	.asciz	"P1DC1"
 	.byte	0x2
 	.2byte	0x6fd
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"P1DC2"
 	.byte	0x2
 	.2byte	0x701
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF13
 	.byte	0x2
 	.2byte	0x981
-	.4byte	0x1ced
+	.4byte	0x1d30
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xce0
+	.4byte	0xd23
 	.uleb128 0x15
 	.4byte	.LASF14
 	.byte	0x2
 	.2byte	0x9a1
-	.4byte	0x1d00
+	.4byte	0x1d43
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xdbd
+	.4byte	0xe00
 	.uleb128 0x15
 	.4byte	.LASF15
 	.byte	0x2
 	.2byte	0x9c7
-	.4byte	0x1d13
+	.4byte	0x1d56
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0xf3b
+	.4byte	0xf7e
 	.uleb128 0x15
 	.4byte	.LASF16
 	.byte	0x2
 	.2byte	0x9dd
-	.4byte	0x1d26
+	.4byte	0x1d69
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x108a
+	.4byte	0x10cd
 	.uleb128 0x15
 	.4byte	.LASF17
 	.byte	0x2
 	.2byte	0x9f3
-	.4byte	0x1d39
+	.4byte	0x1d7c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x11f8
+	.4byte	0x123b
 	.uleb128 0x15
 	.4byte	.LASF18
 	.byte	0x2
 	.2byte	0xa19
-	.4byte	0x1d4c
+	.4byte	0x1d8f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x12f2
+	.4byte	0x1335
 	.uleb128 0x15
 	.4byte	.LASF19
 	.byte	0x2
 	.2byte	0xa29
-	.4byte	0x1d5f
+	.4byte	0x1da2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x13cf
+	.4byte	0x1412
 	.uleb128 0x15
 	.4byte	.LASF20
 	.byte	0x2
 	.2byte	0xa39
-	.4byte	0x1d72
+	.4byte	0x1db5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x14bf
+	.4byte	0x1502
 	.uleb128 0x15
 	.4byte	.LASF21
 	.byte	0x2
 	.2byte	0x181e
-	.4byte	0x1d85
+	.4byte	0x1dc8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x1605
+	.4byte	0x1648
 	.uleb128 0x15
 	.4byte	.LASF22
 	.byte	0x2
 	.2byte	0x18a0
-	.4byte	0x1d98
+	.4byte	0x1ddb
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x1758
+	.4byte	0x179b
 	.uleb128 0x15
 	.4byte	.LASF23
 	.byte	0x2
 	.2byte	0x18d4
-	.4byte	0x1dab
+	.4byte	0x1dee
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x18ab
+	.4byte	0x18ee
 	.uleb128 0x15
 	.4byte	.LASF24
 	.byte	0x2
 	.2byte	0x18ee
-	.4byte	0x1dbe
+	.4byte	0x1e01
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
-	.4byte	0x19fe
+	.4byte	0x1a41
 	.uleb128 0x13
 	.4byte	.LASF25
 	.byte	0x1
 	.byte	0x28
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF26
 	.byte	0x1
 	.byte	0x28
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF27
 	.byte	0x1
 	.byte	0x29
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF28
 	.byte	0x1
 	.byte	0x29
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF29
 	.byte	0x1
 	.byte	0x2c
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF30
 	.byte	0x1
 	.byte	0x2c
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF31
 	.byte	0x1
 	.byte	0x33
-	.4byte	0x1a10
+	.4byte	0x1a53
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
 	.4byte	.LASF3
 	.byte	0x2
 	.byte	0xf8
-	.4byte	0x1b60
+	.4byte	0x1ba3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF4
 	.byte	0x2
 	.2byte	0x177
-	.4byte	0x1b73
+	.4byte	0x1bb6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF5
 	.byte	0x2
 	.2byte	0x1d8
-	.4byte	0x1b86
+	.4byte	0x1bc9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"TMR2"
 	.byte	0x2
 	.2byte	0x436
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x43c
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF6
 	.byte	0x2
 	.2byte	0x456
-	.4byte	0x1bbb
+	.4byte	0x1bfe
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC1RS"
 	.byte	0x2
 	.2byte	0x54b
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC1R"
 	.byte	0x2
 	.2byte	0x54d
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF7
 	.byte	0x2
 	.2byte	0x560
-	.4byte	0x1bed
+	.4byte	0x1c30
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC2RS"
 	.byte	0x2
 	.2byte	0x563
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC2R"
 	.byte	0x2
 	.2byte	0x565
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF8
 	.byte	0x2
 	.2byte	0x578
-	.4byte	0x1c1f
+	.4byte	0x1c62
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC3RS"
 	.byte	0x2
 	.2byte	0x57b
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC3R"
 	.byte	0x2
 	.2byte	0x57d
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF9
 	.byte	0x2
 	.2byte	0x590
-	.4byte	0x1c51
+	.4byte	0x1c94
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC4RS"
 	.byte	0x2
 	.2byte	0x593
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"OC4R"
 	.byte	0x2
 	.2byte	0x595
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF10
 	.byte	0x2
 	.2byte	0x5a8
-	.4byte	0x1c83
+	.4byte	0x1cc6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF11
 	.byte	0x2
 	.2byte	0x5c3
-	.4byte	0x1c96
+	.4byte	0x1cd9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"P1TPER"
 	.byte	0x2
 	.2byte	0x5f1
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF12
 	.byte	0x2
 	.2byte	0x61d
-	.4byte	0x1cba
+	.4byte	0x1cfd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"P1DC1"
 	.byte	0x2
 	.2byte	0x6fd
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.asciz	"P1DC2"
 	.byte	0x2
 	.2byte	0x701
-	.4byte	0x1b9a
+	.4byte	0x1bdd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF13
 	.byte	0x2
 	.2byte	0x981
-	.4byte	0x1ced
+	.4byte	0x1d30
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF14
 	.byte	0x2
 	.2byte	0x9a1
-	.4byte	0x1d00
+	.4byte	0x1d43
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF15
 	.byte	0x2
 	.2byte	0x9c7
-	.4byte	0x1d13
+	.4byte	0x1d56
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF16
 	.byte	0x2
 	.2byte	0x9dd
-	.4byte	0x1d26
+	.4byte	0x1d69
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF17
 	.byte	0x2
 	.2byte	0x9f3
-	.4byte	0x1d39
+	.4byte	0x1d7c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF18
 	.byte	0x2
 	.2byte	0xa19
-	.4byte	0x1d4c
+	.4byte	0x1d8f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF19
 	.byte	0x2
 	.2byte	0xa29
-	.4byte	0x1d5f
+	.4byte	0x1da2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF20
 	.byte	0x2
 	.2byte	0xa39
-	.4byte	0x1d72
+	.4byte	0x1db5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF21
 	.byte	0x2
 	.2byte	0x181e
-	.4byte	0x1d85
+	.4byte	0x1dc8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF22
 	.byte	0x2
 	.2byte	0x18a0
-	.4byte	0x1d98
+	.4byte	0x1ddb
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF23
 	.byte	0x2
 	.2byte	0x18d4
-	.4byte	0x1dab
+	.4byte	0x1dee
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.4byte	.LASF24
 	.byte	0x2
 	.2byte	0x18ee
-	.4byte	0x1dbe
+	.4byte	0x1e01
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x17
 	.4byte	.LASF25
 	.byte	0x1
 	.byte	0x28
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5538,7 +5539,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF26
 	.byte	0x1
 	.byte	0x28
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5547,7 +5548,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF27
 	.byte	0x1
 	.byte	0x29
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5556,7 +5557,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF28
 	.byte	0x1
 	.byte	0x29
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5565,7 +5566,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16MotVt"
 	.byte	0x1
 	.byte	0x2a
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5574,7 +5575,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16MotVr"
 	.byte	0x1
 	.byte	0x2a
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5583,7 +5584,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16TmpLeft"
 	.byte	0x1
 	.byte	0x2b
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5592,7 +5593,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16TmpRight"
 	.byte	0x1
 	.byte	0x2b
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5601,7 +5602,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF29
 	.byte	0x1
 	.byte	0x2c
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5610,7 +5611,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF30
 	.byte	0x1
 	.byte	0x2c
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5619,7 +5620,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16OldHallCntR"
 	.byte	0x1
 	.byte	0x2d
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5628,7 +5629,7 @@ _BldcUpdateSpeed:
 	.asciz	"s16OldHallCntL"
 	.byte	0x1
 	.byte	0x2d
-	.4byte	0x1a61
+	.4byte	0x1aa4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -5637,7 +5638,7 @@ _BldcUpdateSpeed:
 	.4byte	.LASF31
 	.byte	0x1
 	.byte	0x33
-	.4byte	0x1a10
+	.4byte	0x1a53
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -6019,138 +6020,138 @@ _BldcUpdateSpeed:
 	.4byte	0x14c
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x2135
-	.4byte	0x1a68
+	.4byte	0x2178
+	.4byte	0x1aab
 	.asciz	"_CNInterrupt"
-	.4byte	0x1a84
+	.4byte	0x1ac7
 	.asciz	"motorsInit"
-	.4byte	0x1a9e
+	.4byte	0x1ae1
 	.asciz	"motorsEnable"
-	.4byte	0x1aba
+	.4byte	0x1afd
 	.asciz	"motorsDisable"
-	.4byte	0x1ad7
+	.4byte	0x1b1a
 	.asciz	"motorsSetSpeed"
-	.4byte	0x1b34
+	.4byte	0x1b77
 	.asciz	"BldcUpdateSpeed"
-	.4byte	0x201b
+	.4byte	0x205e
 	.asciz	"hallValueR"
-	.4byte	0x202d
+	.4byte	0x2070
 	.asciz	"hallValueL"
-	.4byte	0x203f
+	.4byte	0x2082
 	.asciz	"oldHallValueR"
-	.4byte	0x2051
+	.4byte	0x2094
 	.asciz	"oldHallValueL"
-	.4byte	0x2063
+	.4byte	0x20a6
 	.asciz	"s16MotVt"
-	.4byte	0x207a
+	.4byte	0x20bd
 	.asciz	"s16MotVr"
-	.4byte	0x2091
+	.4byte	0x20d4
 	.asciz	"s16TmpLeft"
-	.4byte	0x20aa
+	.4byte	0x20ed
 	.asciz	"s16TmpRight"
-	.4byte	0x20c4
+	.4byte	0x2107
 	.asciz	"s16HallCntR"
-	.4byte	0x20d6
+	.4byte	0x2119
 	.asciz	"s16HallCntL"
-	.4byte	0x20e8
+	.4byte	0x212b
 	.asciz	"s16OldHallCntR"
-	.4byte	0x2105
+	.4byte	0x2148
 	.asciz	"s16OldHallCntL"
-	.4byte	0x2122
+	.4byte	0x2165
 	.asciz	"privateBldcPwm"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x2be
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x2135
-	.4byte	0xcc
+	.4byte	0x2178
+	.4byte	0x10f
 	.asciz	"tagCNEN2BITS"
-	.4byte	0x20e
+	.4byte	0x251
 	.asciz	"CNEN2BITS"
-	.4byte	0x38d
+	.4byte	0x3d0
 	.asciz	"tagIFS1BITS"
-	.4byte	0x3ab
+	.4byte	0x3ee
 	.asciz	"IFS1BITS"
-	.4byte	0x52a
+	.4byte	0x56d
 	.asciz	"tagIEC1BITS"
-	.4byte	0x548
+	.4byte	0x58b
 	.asciz	"IEC1BITS"
-	.4byte	0x61d
+	.4byte	0x660
 	.asciz	"tagT2CONBITS"
-	.4byte	0x63c
+	.4byte	0x67f
 	.asciz	"T2CONBITS"
-	.4byte	0x6f7
+	.4byte	0x73a
 	.asciz	"tagOC1CONBITS"
-	.4byte	0x717
+	.4byte	0x75a
 	.asciz	"OC1CONBITS"
-	.4byte	0x7d3
+	.4byte	0x816
 	.asciz	"tagOC2CONBITS"
-	.4byte	0x7f3
+	.4byte	0x836
 	.asciz	"OC2CONBITS"
-	.4byte	0x8af
+	.4byte	0x8f2
 	.asciz	"tagOC3CONBITS"
-	.4byte	0x8cf
+	.4byte	0x912
 	.asciz	"OC3CONBITS"
-	.4byte	0x98b
+	.4byte	0x9ce
 	.asciz	"tagOC4CONBITS"
-	.4byte	0x9ab
+	.4byte	0x9ee
 	.asciz	"OC4CONBITS"
-	.4byte	0xaf5
+	.4byte	0xb38
 	.asciz	"tagP1TCONBITS"
-	.4byte	0xb15
+	.4byte	0xb58
 	.asciz	"P1TCONBITS"
-	.4byte	0xb28
+	.4byte	0xb6b
 	.asciz	"tagPWM1CON1BITS"
-	.4byte	0xbf6
+	.4byte	0xc39
 	.asciz	"PWM1CON1BITS"
-	.4byte	0xc0b
+	.4byte	0xc4e
 	.asciz	"tagTRISABITS"
-	.4byte	0xce0
+	.4byte	0xd23
 	.asciz	"TRISABITS"
-	.4byte	0xcf2
+	.4byte	0xd35
 	.asciz	"tagLATABITS"
-	.4byte	0xdbd
+	.4byte	0xe00
 	.asciz	"LATABITS"
-	.4byte	0xdce
+	.4byte	0xe11
 	.asciz	"tagTRISBBITS"
-	.4byte	0xf3b
+	.4byte	0xf7e
 	.asciz	"TRISBBITS"
-	.4byte	0xf4d
+	.4byte	0xf90
 	.asciz	"tagPORTBBITS"
-	.4byte	0x108a
+	.4byte	0x10cd
 	.asciz	"PORTBBITS"
-	.4byte	0x109c
+	.4byte	0x10df
 	.asciz	"tagLATBBITS"
-	.4byte	0x11f8
+	.4byte	0x123b
 	.asciz	"LATBBITS"
-	.4byte	0x1209
+	.4byte	0x124c
 	.asciz	"tagTRISCBITS"
-	.4byte	0x12f2
+	.4byte	0x1335
 	.asciz	"TRISCBITS"
-	.4byte	0x1304
+	.4byte	0x1347
 	.asciz	"tagPORTCBITS"
-	.4byte	0x13cf
+	.4byte	0x1412
 	.asciz	"PORTCBITS"
-	.4byte	0x13e1
+	.4byte	0x1424
 	.asciz	"tagLATCBITS"
-	.4byte	0x14bf
+	.4byte	0x1502
 	.asciz	"LATCBITS"
-	.4byte	0x15e6
+	.4byte	0x1629
 	.asciz	"tagRPOR1BITS"
-	.4byte	0x1605
+	.4byte	0x1648
 	.asciz	"RPOR1BITS"
-	.4byte	0x1739
+	.4byte	0x177c
 	.asciz	"tagRPOR6BITS"
-	.4byte	0x1758
+	.4byte	0x179b
 	.asciz	"RPOR6BITS"
-	.4byte	0x188c
+	.4byte	0x18cf
 	.asciz	"tagRPOR8BITS"
-	.4byte	0x18ab
+	.4byte	0x18ee
 	.asciz	"RPOR8BITS"
-	.4byte	0x19df
+	.4byte	0x1a22
 	.asciz	"tagRPOR9BITS"
-	.4byte	0x19fe
+	.4byte	0x1a41
 	.asciz	"RPOR9BITS"
 	.4byte	0x0
 	.section	.debug_aranges,info

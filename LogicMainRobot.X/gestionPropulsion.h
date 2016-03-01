@@ -45,7 +45,7 @@ void propulsionTranslation(int acc, int vit, int dist);
 void propulsionRotation(int acc, int vit, int dist);
 
 void propulsionGotoxy(positionInteger pos);
-
+void propulsionIsObstacle( obstacleType detectionSharp);
 void propulsionGotoxyalpha(positionInteger pos);
 void propulsionAddObstacle(obstacleType detectionSharp);
 void propulsionStopNow(void);

@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\..\\libdspic\\pwm.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\..\\libdspic\\pwm.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -722,7 +722,7 @@ _C.3.8813:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x769
+	.4byte	0x7ac
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -730,8 +730,9 @@ _C.3.8813:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"../libdspic/pwm.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -743,12 +744,12 @@ _C.3.8813:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x443
-	.4byte	0x153
+	.4byte	0x196
 	.uleb128 0x4
 	.asciz	"TCS"
 	.byte	0x2
 	.2byte	0x445
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -759,7 +760,7 @@ _C.3.8813:
 	.asciz	"T32"
 	.byte	0x2
 	.2byte	0x447
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -770,7 +771,7 @@ _C.3.8813:
 	.asciz	"TCKPS"
 	.byte	0x2
 	.2byte	0x448
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -781,7 +782,7 @@ _C.3.8813:
 	.asciz	"TGATE"
 	.byte	0x2
 	.2byte	0x449
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -792,7 +793,7 @@ _C.3.8813:
 	.asciz	"TSIDL"
 	.byte	0x2
 	.2byte	0x44b
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -803,7 +804,7 @@ _C.3.8813:
 	.asciz	"TON"
 	.byte	0x2
 	.2byte	0x44d
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -815,12 +816,12 @@ _C.3.8813:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x44f
-	.4byte	0x187
+	.4byte	0x1ca
 	.uleb128 0x4
 	.asciz	"TCKPS0"
 	.byte	0x2
 	.2byte	0x451
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -831,7 +832,7 @@ _C.3.8813:
 	.asciz	"TCKPS1"
 	.byte	0x2
 	.2byte	0x452
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -843,20 +844,20 @@ _C.3.8813:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x442
-	.4byte	0x19b
+	.4byte	0x1de
 	.uleb128 0x6
-	.4byte	0xd7
+	.4byte	0x11a
 	.uleb128 0x6
-	.4byte	0x153
+	.4byte	0x196
 	.byte	0x0
 	.uleb128 0x7
 	.asciz	"tagT2CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x441
-	.4byte	0x1ba
+	.4byte	0x1fd
 	.uleb128 0x8
-	.4byte	0x187
+	.4byte	0x1ca
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -865,17 +866,17 @@ _C.3.8813:
 	.asciz	"T2CONBITS"
 	.byte	0x2
 	.2byte	0x455
-	.4byte	0x19b
+	.4byte	0x1de
 	.uleb128 0x3
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x45c
-	.4byte	0x236
+	.4byte	0x279
 	.uleb128 0x4
 	.asciz	"TCS"
 	.byte	0x2
 	.2byte	0x45e
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -886,7 +887,7 @@ _C.3.8813:
 	.asciz	"TCKPS"
 	.byte	0x2
 	.2byte	0x460
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -897,7 +898,7 @@ _C.3.8813:
 	.asciz	"TGATE"
 	.byte	0x2
 	.2byte	0x461
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -908,7 +909,7 @@ _C.3.8813:
 	.asciz	"TSIDL"
 	.byte	0x2
 	.2byte	0x463
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -919,7 +920,7 @@ _C.3.8813:
 	.asciz	"TON"
 	.byte	0x2
 	.2byte	0x465
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0x10
@@ -931,12 +932,12 @@ _C.3.8813:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x467
-	.4byte	0x26a
+	.4byte	0x2ad
 	.uleb128 0x4
 	.asciz	"TCKPS0"
 	.byte	0x2
 	.2byte	0x469
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -947,7 +948,7 @@ _C.3.8813:
 	.asciz	"TCKPS1"
 	.byte	0x2
 	.2byte	0x46a
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -959,20 +960,20 @@ _C.3.8813:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x45b
-	.4byte	0x27e
+	.4byte	0x2c1
 	.uleb128 0x6
-	.4byte	0x1cc
+	.4byte	0x20f
 	.uleb128 0x6
-	.4byte	0x236
+	.4byte	0x279
 	.byte	0x0
 	.uleb128 0x7
 	.asciz	"tagT3CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x45a
-	.4byte	0x29d
+	.4byte	0x2e0
 	.uleb128 0x8
-	.4byte	0x26a
+	.4byte	0x2ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -981,12 +982,12 @@ _C.3.8813:
 	.asciz	"T3CONBITS"
 	.byte	0x2
 	.2byte	0x46d
-	.4byte	0x27e
+	.4byte	0x2c1
 	.uleb128 0xa
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1f
-	.4byte	0x2ee
+	.4byte	0x331
 	.uleb128 0xb
 	.asciz	"TIMER_SUCCESS"
 	.sleb128 0
@@ -1001,12 +1002,12 @@ _C.3.8813:
 	.asciz	"timerStatus"
 	.byte	0x3
 	.byte	0x23
-	.4byte	0x2af
+	.4byte	0x2f2
 	.uleb128 0xa
 	.byte	0x2
 	.byte	0x4
 	.byte	0x10
-	.4byte	0x34a
+	.4byte	0x38d
 	.uleb128 0xb
 	.asciz	"PWM_SUCCESS"
 	.sleb128 0
@@ -1024,24 +1025,24 @@ _C.3.8813:
 	.asciz	"pwmStatus"
 	.byte	0x4
 	.byte	0x15
-	.4byte	0x301
+	.4byte	0x344
 	.uleb128 0xd
 	.byte	0x1
 	.asciz	"pwmSetup"
 	.byte	0x1
 	.byte	0xe
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB0
 	.4byte	.LFE0
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0xe
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -1049,7 +1050,7 @@ _C.3.8813:
 	.asciz	"timer"
 	.byte	0x1
 	.byte	0xe
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -1057,7 +1058,7 @@ _C.3.8813:
 	.asciz	"periodMs"
 	.byte	0x1
 	.byte	0xe
-	.4byte	0x3c1
+	.4byte	0x404
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -1065,7 +1066,7 @@ _C.3.8813:
 	.asciz	"err"
 	.byte	0x1
 	.byte	0xf
-	.4byte	0x2ee
+	.4byte	0x331
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1084,17 +1085,17 @@ _C.3.8813:
 	.byte	0x1
 	.byte	0x34
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB1
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x413
+	.4byte	0x456
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0x34
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1102,7 +1103,7 @@ _C.3.8813:
 	.asciz	"dutyCycle"
 	.byte	0x1
 	.byte	0x34
-	.4byte	0x3c1
+	.4byte	0x404
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -1113,17 +1114,17 @@ _C.3.8813:
 	.byte	0x1
 	.byte	0x4c
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB2
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x490
+	.4byte	0x4d3
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0x4c
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 10
@@ -1131,7 +1132,7 @@ _C.3.8813:
 	.asciz	"durationMs"
 	.byte	0x1
 	.byte	0x4c
-	.4byte	0x3c1
+	.4byte	0x404
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -1139,7 +1140,7 @@ _C.3.8813:
 	.asciz	"PRx"
 	.byte	0x1
 	.byte	0x4e
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1147,7 +1148,7 @@ _C.3.8813:
 	.asciz	"prescaleShift"
 	.byte	0x1
 	.byte	0x4f
-	.4byte	0x490
+	.4byte	0x4d3
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -1155,16 +1156,16 @@ _C.3.8813:
 	.asciz	"OCx"
 	.byte	0x1
 	.byte	0x52
-	.4byte	0x4a8
+	.4byte	0x4eb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
 	.byte	0x0
 	.uleb128 0x10
-	.4byte	0x4a0
-	.4byte	0x4a0
+	.4byte	0x4e3
+	.4byte	0x4e3
 	.uleb128 0x11
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x3
 	.byte	0x0
 	.uleb128 0x2
@@ -1181,17 +1182,17 @@ _C.3.8813:
 	.byte	0x1
 	.byte	0x6f
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB3
 	.4byte	.LFE3
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x514
+	.4byte	0x557
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0x6f
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -1199,7 +1200,7 @@ _C.3.8813:
 	.asciz	"duration"
 	.byte	0x1
 	.byte	0x6f
-	.4byte	0x3c1
+	.4byte	0x404
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -1207,7 +1208,7 @@ _C.3.8813:
 	.asciz	"PRx"
 	.byte	0x1
 	.byte	0x71
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1215,7 +1216,7 @@ _C.3.8813:
 	.asciz	"OCx"
 	.byte	0x1
 	.byte	0x74
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -1226,17 +1227,17 @@ _C.3.8813:
 	.byte	0x1
 	.byte	0x8f
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB4
 	.4byte	.LFE4
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x543
+	.4byte	0x586
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0x8f
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1247,17 +1248,17 @@ _C.3.8813:
 	.byte	0x1
 	.byte	0x9a
 	.byte	0x1
-	.4byte	0x34a
+	.4byte	0x38d
 	.4byte	.LFB5
 	.4byte	.LFE5
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x573
+	.4byte	0x5b6
 	.uleb128 0xe
 	.asciz	"id"
 	.byte	0x1
 	.byte	0x9a
-	.4byte	0x3ba
+	.4byte	0x3fd
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1266,226 +1267,226 @@ _C.3.8813:
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x43c
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
-	.4byte	0xc7
+	.4byte	0x10a
 	.uleb128 0x12
 	.asciz	"PR3"
 	.byte	0x2
 	.2byte	0x43e
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x456
-	.4byte	0x5a2
+	.4byte	0x5e5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
-	.4byte	0x1ba
+	.4byte	0x1fd
 	.uleb128 0x14
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x46e
-	.4byte	0x5b5
+	.4byte	0x5f8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
-	.4byte	0x29d
+	.4byte	0x2e0
 	.uleb128 0x12
 	.asciz	"OC1RS"
 	.byte	0x2
 	.2byte	0x54b
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC1CON"
 	.byte	0x2
 	.2byte	0x54f
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC2RS"
 	.byte	0x2
 	.2byte	0x563
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC2CON"
 	.byte	0x2
 	.2byte	0x567
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC3RS"
 	.byte	0x2
 	.2byte	0x57b
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC3CON"
 	.byte	0x2
 	.2byte	0x57f
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC4RS"
 	.byte	0x2
 	.2byte	0x593
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC4CON"
 	.byte	0x2
 	.2byte	0x597
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x10
-	.4byte	0x64e
-	.4byte	0x64e
+	.4byte	0x691
+	.4byte	0x691
 	.uleb128 0x11
-	.4byte	0xc7
+	.4byte	0x10a
 	.byte	0x3
 	.byte	0x0
 	.uleb128 0x15
 	.byte	0x2
-	.4byte	0x581
+	.4byte	0x5c4
 	.uleb128 0x16
 	.asciz	"OCxCON"
 	.byte	0x1
 	.byte	0xb
-	.4byte	0x664
+	.4byte	0x6a7
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x17
-	.4byte	0x63e
+	.4byte	0x681
 	.uleb128 0x16
 	.asciz	"OCxRS"
 	.byte	0x1
 	.byte	0xc
-	.4byte	0x678
+	.4byte	0x6bb
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x17
-	.4byte	0x63e
+	.4byte	0x681
 	.uleb128 0x12
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x43c
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"PR3"
 	.byte	0x2
 	.2byte	0x43e
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x456
-	.4byte	0x5a2
+	.4byte	0x5e5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x46e
-	.4byte	0x5b5
+	.4byte	0x5f8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC1RS"
 	.byte	0x2
 	.2byte	0x54b
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC1CON"
 	.byte	0x2
 	.2byte	0x54f
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC2RS"
 	.byte	0x2
 	.2byte	0x563
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC2CON"
 	.byte	0x2
 	.2byte	0x567
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC3RS"
 	.byte	0x2
 	.2byte	0x57b
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC3CON"
 	.byte	0x2
 	.2byte	0x57f
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC4RS"
 	.byte	0x2
 	.2byte	0x593
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
 	.asciz	"OC4CON"
 	.byte	0x2
 	.2byte	0x597
-	.4byte	0x581
+	.4byte	0x5c4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.asciz	"OCxCON"
 	.byte	0x1
 	.byte	0xb
-	.4byte	0x74e
+	.4byte	0x791
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_OCxCON
 	.uleb128 0x17
-	.4byte	0x63e
+	.4byte	0x681
 	.uleb128 0x18
 	.asciz	"OCxRS"
 	.byte	0x1
 	.byte	0xc
-	.4byte	0x767
+	.4byte	0x7aa
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_OCxRS
 	.uleb128 0x17
-	.4byte	0x63e
+	.4byte	0x681
 	.byte	0x0
 	.section	.debug_abbrev,info
 	.uleb128 0x1
@@ -1813,40 +1814,40 @@ _C.3.8813:
 	.4byte	0x84
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x76d
-	.4byte	0x35b
+	.4byte	0x7b0
+	.4byte	0x39e
 	.asciz	"pwmSetup"
-	.4byte	0x3ca
+	.4byte	0x40d
 	.asciz	"pwmSetDutyCycle"
-	.4byte	0x413
+	.4byte	0x456
 	.asciz	"pwmSetDuration"
-	.4byte	0x4b4
+	.4byte	0x4f7
 	.asciz	"pwmSetCycle"
-	.4byte	0x514
+	.4byte	0x557
 	.asciz	"pwmEnable"
-	.4byte	0x543
+	.4byte	0x586
 	.asciz	"pwmDisable"
-	.4byte	0x739
+	.4byte	0x77c
 	.asciz	"OCxCON"
-	.4byte	0x753
+	.4byte	0x796
 	.asciz	"OCxRS"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x6a
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x76d
-	.4byte	0x19b
+	.4byte	0x7b0
+	.4byte	0x1de
 	.asciz	"tagT2CONBITS"
-	.4byte	0x1ba
+	.4byte	0x1fd
 	.asciz	"T2CONBITS"
-	.4byte	0x27e
+	.4byte	0x2c1
 	.asciz	"tagT3CONBITS"
-	.4byte	0x29d
+	.4byte	0x2e0
 	.asciz	"T3CONBITS"
-	.4byte	0x2ee
+	.4byte	0x331
 	.asciz	"timerStatus"
-	.4byte	0x34a
+	.4byte	0x38d
 	.asciz	"pwmStatus"
 	.4byte	0x0
 	.section	.debug_aranges,info

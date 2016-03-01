@@ -1,5 +1,5 @@
 # 1 "../libdspic/timers.c"
-# 1 "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X//"
+# 1 "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../libdspic/timers.c"
@@ -6773,6 +6773,7 @@ volatile unsigned int* const TMRx[5] = {&TMR1, &TMR2, &TMR3, &TMR4, &TMR5};
 
 volatile unsigned int* const ISRENx[5] = {&IEC0, &IEC0, &IEC0, &IEC1, &IEC1};
 
+volatile unsigned int* const ISRIFx[5] = {&IFS0, &IFS0, &IFS0, &IFS1, &IFS1};
 unsigned int const ISRMaskx[5] = {0x0008, 0x0080, 0x0100, 0x0800, 0x1000};
 
 
@@ -6913,4 +6914,18 @@ timerStatus timerInterrupt(int id, void (*fonction)(void)){
     TxISR[x-1] = fonction;
 
     return TIMER_SUCCESS;
+}
+
+int timerFlag(int id) {
+    if ((id>5) || (id<1)) {
+        while(1);
+    }
+    return (*ISRIFx[id-1] & ISRMaskx[id-1]);
+}
+
+void timerReset(int id) {
+    if(id < 1 || (id > 5 && (id != 6) && (id !=7)))
+        while(1);
+    *TMRx[id-1] = 0;
+    *ISRIFx[id-1] &= (~ISRMaskx[id-1]);
 }

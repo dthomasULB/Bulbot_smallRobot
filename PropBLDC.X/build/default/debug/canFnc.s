@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\canFnc.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\canFnc.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -760,7 +760,7 @@ _canGetRotation:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x856
+	.4byte	0x899
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -768,8 +768,9 @@ _canGetRotation:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"canFnc.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -782,12 +783,12 @@ _canGetRotation:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1dc
-	.4byte	0x175
+	.4byte	0x1b8
 	.uleb128 0x4
 	.asciz	"SPI2EIE"
 	.byte	0x2
 	.2byte	0x1dd
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -798,7 +799,7 @@ _canGetRotation:
 	.asciz	"SPI2IE"
 	.byte	0x2
 	.2byte	0x1de
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -809,7 +810,7 @@ _canGetRotation:
 	.asciz	"C1RXIE"
 	.byte	0x2
 	.2byte	0x1df
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -820,7 +821,7 @@ _canGetRotation:
 	.asciz	"C1IE"
 	.byte	0x2
 	.2byte	0x1e0
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -831,7 +832,7 @@ _canGetRotation:
 	.asciz	"DMA3IE"
 	.byte	0x2
 	.2byte	0x1e1
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -842,7 +843,7 @@ _canGetRotation:
 	.asciz	"PMPIE"
 	.byte	0x2
 	.2byte	0x1e3
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -853,7 +854,7 @@ _canGetRotation:
 	.asciz	"DMA4IE"
 	.byte	0x2
 	.2byte	0x1e4
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -865,7 +866,7 @@ _canGetRotation:
 	.asciz	"IEC2BITS"
 	.byte	0x2
 	.2byte	0x1e5
-	.4byte	0xce
+	.4byte	0x111
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -874,12 +875,12 @@ _canGetRotation:
 	.byte	0x6
 	.byte	0x3
 	.byte	0xe
-	.4byte	0x1c8
+	.4byte	0x20b
 	.uleb128 0x7
 	.asciz	"x"
 	.byte	0x3
 	.byte	0xf
-	.4byte	0x1c8
+	.4byte	0x20b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -887,7 +888,7 @@ _canGetRotation:
 	.asciz	"y"
 	.byte	0x3
 	.byte	0x10
-	.4byte	0x1c8
+	.4byte	0x20b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -895,7 +896,7 @@ _canGetRotation:
 	.asciz	"alpha"
 	.byte	0x3
 	.byte	0x11
-	.4byte	0x1c8
+	.4byte	0x20b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -908,17 +909,17 @@ _canGetRotation:
 	.asciz	"positionInteger"
 	.byte	0x3
 	.byte	0x12
-	.4byte	0x197
+	.4byte	0x1da
 	.uleb128 0x6
 	.byte	0x4
 	.byte	0x3
 	.byte	0x17
-	.4byte	0x207
+	.4byte	0x24a
 	.uleb128 0x7
 	.asciz	"l"
 	.byte	0x3
 	.byte	0x18
-	.4byte	0x1c8
+	.4byte	0x20b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -926,7 +927,7 @@ _canGetRotation:
 	.asciz	"r"
 	.byte	0x3
 	.byte	0x19
-	.4byte	0x1c8
+	.4byte	0x20b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -935,12 +936,12 @@ _canGetRotation:
 	.asciz	"relativeCoordInteger"
 	.byte	0x3
 	.byte	0x1a
-	.4byte	0x1e6
+	.4byte	0x229
 	.uleb128 0x9
 	.byte	0x2
 	.byte	0x3
 	.byte	0x27
-	.4byte	0x2b4
+	.4byte	0x2f7
 	.uleb128 0xa
 	.asciz	"DISABLED"
 	.sleb128 0
@@ -976,12 +977,12 @@ _canGetRotation:
 	.asciz	"propStateType"
 	.byte	0x3
 	.byte	0x32
-	.4byte	0x223
+	.4byte	0x266
 	.uleb128 0x9
 	.byte	0x2
 	.byte	0x3
 	.byte	0x34
-	.4byte	0x320
+	.4byte	0x363
 	.uleb128 0xa
 	.asciz	"PROP_IS_NO_OBSTACLE"
 	.sleb128 0
@@ -996,17 +997,17 @@ _canGetRotation:
 	.asciz	"propIsObstacleType"
 	.byte	0x3
 	.byte	0x38
-	.4byte	0x2c9
+	.4byte	0x30c
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x3
 	.byte	0x3a
-	.4byte	0x36a
+	.4byte	0x3ad
 	.uleb128 0x7
 	.asciz	"x"
 	.byte	0x3
 	.byte	0x3b
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1014,7 +1015,7 @@ _canGetRotation:
 	.asciz	"y"
 	.byte	0x3
 	.byte	0x3c
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1022,7 +1023,7 @@ _canGetRotation:
 	.asciz	"size"
 	.byte	0x3
 	.byte	0x3d
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -1035,17 +1036,17 @@ _canGetRotation:
 	.asciz	"obstacleType"
 	.byte	0x3
 	.byte	0x3e
-	.4byte	0x33a
+	.4byte	0x37d
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x4
 	.byte	0x6
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.uleb128 0x7
 	.asciz	"x"
 	.byte	0x4
 	.byte	0x7
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1053,7 +1054,7 @@ _canGetRotation:
 	.asciz	"y"
 	.byte	0x4
 	.byte	0x8
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1061,7 +1062,7 @@ _canGetRotation:
 	.asciz	"alpha"
 	.byte	0x4
 	.byte	0x9
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -1070,17 +1071,17 @@ _canGetRotation:
 	.asciz	"absolutePosType"
 	.byte	0x4
 	.byte	0xa
-	.4byte	0x387
+	.4byte	0x3ca
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x4
 	.byte	0xc
-	.4byte	0x3f0
+	.4byte	0x433
 	.uleb128 0x7
 	.asciz	"l"
 	.byte	0x4
 	.byte	0xd
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1088,7 +1089,7 @@ _canGetRotation:
 	.asciz	"r"
 	.byte	0x4
 	.byte	0xe
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1097,17 +1098,17 @@ _canGetRotation:
 	.asciz	"relativePosType"
 	.byte	0x4
 	.byte	0xf
-	.4byte	0x3cf
+	.4byte	0x412
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x4
 	.byte	0x11
-	.4byte	0x43d
+	.4byte	0x480
 	.uleb128 0x7
 	.asciz	"acc"
 	.byte	0x4
 	.byte	0x12
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1115,7 +1116,7 @@ _canGetRotation:
 	.asciz	"vel"
 	.byte	0x4
 	.byte	0x13
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1123,7 +1124,7 @@ _canGetRotation:
 	.asciz	"length"
 	.byte	0x4
 	.byte	0x14
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -1132,17 +1133,17 @@ _canGetRotation:
 	.asciz	"translationParamType"
 	.byte	0x4
 	.byte	0x15
-	.4byte	0x407
+	.4byte	0x44a
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x4
 	.byte	0x17
-	.4byte	0x48e
+	.4byte	0x4d1
 	.uleb128 0x7
 	.asciz	"acc"
 	.byte	0x4
 	.byte	0x18
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -1150,7 +1151,7 @@ _canGetRotation:
 	.asciz	"vel"
 	.byte	0x4
 	.byte	0x19
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -1158,7 +1159,7 @@ _canGetRotation:
 	.asciz	"angle"
 	.byte	0x4
 	.byte	0x1a
-	.4byte	0x36a
+	.4byte	0x3ad
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -1167,7 +1168,7 @@ _canGetRotation:
 	.asciz	"rotationParamType"
 	.byte	0x4
 	.byte	0x1b
-	.4byte	0x459
+	.4byte	0x49c
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -1177,40 +1178,40 @@ _canGetRotation:
 	.byte	0x2
 	.byte	0x1
 	.byte	0x11
-	.4byte	0x4e4
+	.4byte	0x527
 	.uleb128 0xc
 	.asciz	"i"
 	.byte	0x1
 	.byte	0x12
-	.4byte	0x1c8
+	.4byte	0x20b
 	.uleb128 0xc
 	.asciz	"ui"
 	.byte	0x1
 	.byte	0x13
-	.4byte	0xbe
+	.4byte	0x101
 	.uleb128 0xc
 	.asciz	"b"
 	.byte	0x1
 	.byte	0x14
-	.4byte	0x4e4
+	.4byte	0x527
 	.uleb128 0xc
 	.asciz	"ub"
 	.byte	0x1
 	.byte	0x15
-	.4byte	0x4f4
+	.4byte	0x537
 	.byte	0x0
 	.uleb128 0xd
-	.4byte	0x4a7
-	.4byte	0x4f4
+	.4byte	0x4ea
+	.4byte	0x537
 	.uleb128 0xe
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x1
 	.byte	0x0
 	.uleb128 0xd
-	.4byte	0x186
-	.4byte	0x504
+	.4byte	0x1c9
+	.4byte	0x547
 	.uleb128 0xe
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x1
 	.byte	0x0
 	.uleb128 0xf
@@ -1233,12 +1234,12 @@ _canGetRotation:
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x553
+	.4byte	0x596
 	.uleb128 0x11
 	.asciz	"curState"
 	.byte	0x1
 	.byte	0x32
-	.4byte	0x2b4
+	.4byte	0x2f7
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1253,12 +1254,12 @@ _canGetRotation:
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x589
+	.4byte	0x5cc
 	.uleb128 0x12
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0x38
-	.4byte	0x320
+	.4byte	0x363
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1283,12 +1284,12 @@ _canGetRotation:
 	.4byte	.LFE4
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5d9
+	.4byte	0x61c
 	.uleb128 0x12
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0x40
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1303,12 +1304,12 @@ _canGetRotation:
 	.4byte	.LFE5
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x609
+	.4byte	0x64c
 	.uleb128 0x12
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0x47
-	.4byte	0x3f0
+	.4byte	0x433
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1323,12 +1324,12 @@ _canGetRotation:
 	.4byte	.LFE6
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x639
+	.4byte	0x67c
 	.uleb128 0x12
 	.4byte	.LASF1
 	.byte	0x1
 	.byte	0x4d
-	.4byte	0x3f0
+	.4byte	0x433
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1339,17 +1340,17 @@ _canGetRotation:
 	.byte	0x1
 	.byte	0x56
 	.byte	0x1
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.4byte	.LFB7
 	.4byte	.LFE7
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x67f
+	.4byte	0x6c2
 	.uleb128 0x14
 	.asciz	"newPos"
 	.byte	0x1
 	.byte	0x57
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1357,7 +1358,7 @@ _canGetRotation:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x58
-	.4byte	0x4af
+	.4byte	0x4f2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -1368,17 +1369,17 @@ _canGetRotation:
 	.byte	0x1
 	.byte	0x64
 	.byte	0x1
-	.4byte	0x373
+	.4byte	0x3b6
 	.4byte	.LFB8
 	.4byte	.LFE8
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x6c7
+	.4byte	0x70a
 	.uleb128 0x15
 	.4byte	.LASF0
 	.byte	0x1
 	.byte	0x65
-	.4byte	0x373
+	.4byte	0x3b6
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1386,7 +1387,7 @@ _canGetRotation:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x66
-	.4byte	0x4af
+	.4byte	0x4f2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -1397,17 +1398,17 @@ _canGetRotation:
 	.byte	0x1
 	.byte	0x73
 	.byte	0x1
-	.4byte	0x43d
+	.4byte	0x480
 	.4byte	.LFB9
 	.4byte	.LFE9
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x70f
+	.4byte	0x752
 	.uleb128 0x14
 	.asciz	"param"
 	.byte	0x1
 	.byte	0x74
-	.4byte	0x43d
+	.4byte	0x480
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1415,7 +1416,7 @@ _canGetRotation:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x75
-	.4byte	0x4af
+	.4byte	0x4f2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -1426,17 +1427,17 @@ _canGetRotation:
 	.byte	0x1
 	.byte	0x82
 	.byte	0x1
-	.4byte	0x48e
+	.4byte	0x4d1
 	.4byte	.LFB10
 	.4byte	.LFE10
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x754
+	.4byte	0x797
 	.uleb128 0x14
 	.asciz	"param"
 	.byte	0x1
 	.byte	0x83
-	.4byte	0x48e
+	.4byte	0x4d1
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -1444,7 +1445,7 @@ _canGetRotation:
 	.4byte	.LASF2
 	.byte	0x1
 	.byte	0x84
-	.4byte	0x4af
+	.4byte	0x4f2
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -1453,86 +1454,86 @@ _canGetRotation:
 	.4byte	.LASF3
 	.byte	0x2
 	.2byte	0x1e6
-	.4byte	0x762
+	.4byte	0x7a5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x17
-	.4byte	0x175
+	.4byte	0x1b8
 	.uleb128 0xd
-	.4byte	0x186
-	.4byte	0x777
+	.4byte	0x1c9
+	.4byte	0x7ba
 	.uleb128 0xe
-	.4byte	0xbe
+	.4byte	0x101
 	.byte	0x6
 	.byte	0x0
 	.uleb128 0x18
 	.4byte	.LASF4
 	.byte	0x5
 	.byte	0x4d
-	.4byte	0x767
+	.4byte	0x7aa
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF5
 	.byte	0x1
 	.byte	0x19
-	.4byte	0x1cf
+	.4byte	0x212
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF6
 	.byte	0x1
 	.byte	0x1a
-	.4byte	0x2b4
+	.4byte	0x2f7
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF7
 	.byte	0x1
 	.byte	0x1b
-	.4byte	0x320
+	.4byte	0x363
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF8
 	.byte	0x1
 	.byte	0x1c
-	.4byte	0x207
+	.4byte	0x24a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF9
 	.byte	0x1
 	.byte	0x1c
-	.4byte	0x207
+	.4byte	0x24a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF10
 	.byte	0x1
 	.byte	0x1d
-	.4byte	0x4a7
+	.4byte	0x4ea
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
 	.4byte	.LASF3
 	.byte	0x2
 	.2byte	0x1e6
-	.4byte	0x762
+	.4byte	0x7a5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x18
 	.4byte	.LASF4
 	.byte	0x5
 	.byte	0x4d
-	.4byte	0x767
+	.4byte	0x7aa
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x19
 	.4byte	.LASF5
 	.byte	0x1
 	.byte	0x19
-	.4byte	0x1cf
+	.4byte	0x212
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1541,7 +1542,7 @@ _canGetRotation:
 	.4byte	.LASF6
 	.byte	0x1
 	.byte	0x1a
-	.4byte	0x2b4
+	.4byte	0x2f7
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1550,7 +1551,7 @@ _canGetRotation:
 	.4byte	.LASF7
 	.byte	0x1
 	.byte	0x1b
-	.4byte	0x320
+	.4byte	0x363
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1559,7 +1560,7 @@ _canGetRotation:
 	.4byte	.LASF8
 	.byte	0x1
 	.byte	0x1c
-	.4byte	0x207
+	.4byte	0x24a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1568,7 +1569,7 @@ _canGetRotation:
 	.4byte	.LASF9
 	.byte	0x1
 	.byte	0x1c
-	.4byte	0x207
+	.4byte	0x24a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1577,7 +1578,7 @@ _canGetRotation:
 	.4byte	.LASF10
 	.byte	0x1
 	.byte	0x1d
-	.4byte	0x4a7
+	.4byte	0x4ea
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1964,70 +1965,70 @@ _canGetRotation:
 	.4byte	0x142
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x85a
-	.4byte	0x504
+	.4byte	0x89d
+	.4byte	0x547
 	.asciz	"canPropInit"
-	.4byte	0x51f
+	.4byte	0x562
 	.asciz	"canSendState"
-	.4byte	0x553
+	.4byte	0x596
 	.asciz	"canSendObstacleType"
-	.4byte	0x589
+	.4byte	0x5cc
 	.asciz	"canSendPatinageFlag"
-	.4byte	0x5ac
+	.4byte	0x5ef
 	.asciz	"canSendPos"
-	.4byte	0x5d9
+	.4byte	0x61c
 	.asciz	"canSendRelCsg"
-	.4byte	0x609
+	.4byte	0x64c
 	.asciz	"canSendRelPos"
-	.4byte	0x639
+	.4byte	0x67c
 	.asciz	"canOrderGetPos"
-	.4byte	0x67f
+	.4byte	0x6c2
 	.asciz	"canOrderGetObstacle"
-	.4byte	0x6c7
+	.4byte	0x70a
 	.asciz	"canGetTranslation"
-	.4byte	0x70f
+	.4byte	0x752
 	.asciz	"canGetRotation"
-	.4byte	0x7ed
+	.4byte	0x830
 	.asciz	"canAbsPos"
-	.4byte	0x7ff
+	.4byte	0x842
 	.asciz	"canState"
-	.4byte	0x811
+	.4byte	0x854
 	.asciz	"canObsType"
-	.4byte	0x823
+	.4byte	0x866
 	.asciz	"canOdoRelPos"
-	.4byte	0x835
+	.4byte	0x878
 	.asciz	"canCsgRelPos"
-	.4byte	0x847
+	.4byte	0x88a
 	.asciz	"canPatinage"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0xf3
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x85a
-	.4byte	0xce
+	.4byte	0x89d
+	.4byte	0x111
 	.asciz	"tagIEC2BITS"
-	.4byte	0x175
+	.4byte	0x1b8
 	.asciz	"IEC2BITS"
-	.4byte	0x1cf
+	.4byte	0x212
 	.asciz	"positionInteger"
-	.4byte	0x207
+	.4byte	0x24a
 	.asciz	"relativeCoordInteger"
-	.4byte	0x2b4
+	.4byte	0x2f7
 	.asciz	"propStateType"
-	.4byte	0x320
+	.4byte	0x363
 	.asciz	"propIsObstacleType"
-	.4byte	0x373
+	.4byte	0x3b6
 	.asciz	"obstacleType"
-	.4byte	0x3b8
+	.4byte	0x3fb
 	.asciz	"absolutePosType"
-	.4byte	0x3f0
+	.4byte	0x433
 	.asciz	"relativePosType"
-	.4byte	0x43d
+	.4byte	0x480
 	.asciz	"translationParamType"
-	.4byte	0x48e
+	.4byte	0x4d1
 	.asciz	"rotationParamType"
-	.4byte	0x4af
+	.4byte	0x4f2
 	.asciz	"INTEG"
 	.4byte	0x0
 	.section	.debug_aranges,info

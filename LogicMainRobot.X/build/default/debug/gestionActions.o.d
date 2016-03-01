@@ -12,4 +12,5 @@ basicActions.h  \
  ../libdspic/../libdspic/timers.h  \
 ../libdspic/clock.h  \
 timer.h  \
-spio.h 
+spio.h  \
+ ax12.h 

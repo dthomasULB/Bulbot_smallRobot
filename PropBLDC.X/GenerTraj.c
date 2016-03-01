@@ -140,7 +140,7 @@ inline void trajAddObstacle(obstacleType obstacle) {
     for (a = 0; a < mpObsSize.a; a++) {
         for (b = 0; b < mpObsSize.b; b++) {
             if (dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done != OBST) {
-                dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done = OBST; //MOVE_OBST;
+                dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done = MOVE_OBST; //MOVE_OBST;
             }
         }
     }
@@ -159,7 +159,7 @@ inline void trajRemoveObstacle(obstacleType obstacle) {
     mpObsSize = RPtoMP(tmp);
     for (a = 0; a < mpObsSize.a; a++) {
         for (b = 0; b < mpObsSize.b; b++) {
-            if (dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done != OBST) {
+            if (dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done == MOVE_OBST) {
                 dkNodes[MAP_SIZE_B * (a + mpObsPos.a) + b + mpObsPos.b].done = UNPR;
             }
         }

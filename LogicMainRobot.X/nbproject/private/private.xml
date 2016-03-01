@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
         <file>
             <url>basicActions.c</url>
@@ -8,18 +9,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/libdspic/servo.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/spio.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/spio.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/libdspic/adc.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/Can/CanProp.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/Can/CanTypes.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/sharp.h</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/sharp.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/main.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/gestionPropulsion.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/LogicMainRobot.X/timer.c</file>
-            <file>file:/D:/Robotique/codes/BaseSecondaire/libdspic/adc.h</file>
+            <file>file:/C:/Users/DenisT/Desktop/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9/LogicMainRobot.X/gestionPropulsion.c</file>
         </group>
     </open-files>
 </project-private>

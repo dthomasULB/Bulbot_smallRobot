@@ -1,4 +1,4 @@
-	.file "C:\\Users\\DenisT\\Desktop\\Master_2\\bULBot\\secondaryRobot-secondaryRobot2016\\PropBLDC.X\\Configware.c"
+	.file "C:\\Users\\DenisT\\Desktop\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\Bulbot_smallRobot-e78442e9752fb87eb975312f2993b3129a8c8ac9\\PropBLDC.X\\Configware.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -88,7 +88,7 @@ _canPinAssign:
 	.section	.text,code
 .Letext0:
 	.section	.debug_info,info
-	.4byte	0x324
+	.4byte	0x367
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -96,8 +96,9 @@ _canPinAssign:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v1_21) (A) Build date: Jan  2 2014"
 	.byte	0x1
 	.asciz	"Configware.c"
-	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Master_2\\\\bULBot\\\\secondaryR"
-	.asciz	"obot-secondaryRobot2016\\\\PropBLDC.X"
+	.ascii	"C:\\\\Users\\\\DenisT\\\\Desktop\\\\Bulbot_smallRobot-e78442e9752fb8"
+	.ascii	"7eb975312f2993b3129a8c8ac9\\\\Bulbot_smallRobot-e78442e9752fb87eb975"
+	.asciz	"312f2993b3129a8c8ac9\\\\PropBLDC.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -105,7 +106,7 @@ _canPinAssign:
 	.byte	0x2
 	.byte	0x2
 	.byte	0x1a
-	.4byte	0x1d3
+	.4byte	0x216
 	.uleb128 0x3
 	.asciz	"PPS_C1OUT"
 	.sleb128 1
@@ -177,7 +178,7 @@ _canPinAssign:
 	.byte	0x2
 	.byte	0x2
 	.byte	0x41
-	.4byte	0x290
+	.4byte	0x2d3
 	.uleb128 0x3
 	.asciz	"PPS_U1RX"
 	.sleb128 1
@@ -242,7 +243,7 @@ _canPinAssign:
 	.asciz	"_FGS"
 	.byte	0x3
 	.2byte	0x5ae6
-	.4byte	0x290
+	.4byte	0x2d3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -251,7 +252,7 @@ _canPinAssign:
 	.asciz	"_FOSCSEL"
 	.byte	0x3
 	.2byte	0x5b0a
-	.4byte	0x290
+	.4byte	0x2d3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -260,7 +261,7 @@ _canPinAssign:
 	.asciz	"_FOSC"
 	.byte	0x3
 	.2byte	0x5b34
-	.4byte	0x290
+	.4byte	0x2d3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -269,7 +270,7 @@ _canPinAssign:
 	.asciz	"_FWDT"
 	.byte	0x3
 	.2byte	0x5b66
-	.4byte	0x290
+	.4byte	0x2d3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -278,7 +279,7 @@ _canPinAssign:
 	.asciz	"_FICD"
 	.byte	0x3
 	.2byte	0x5bed
-	.4byte	0x290
+	.4byte	0x2d3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -380,25 +381,25 @@ _canPinAssign:
 	.4byte	0x53
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x328
-	.4byte	0x2a0
+	.4byte	0x36b
+	.4byte	0x2e3
 	.asciz	"canPinAssign"
-	.4byte	0x2bc
+	.4byte	0x2ff
 	.asciz	"_FGS"
-	.4byte	0x2d0
+	.4byte	0x313
 	.asciz	"_FOSCSEL"
-	.4byte	0x2e8
+	.4byte	0x32b
 	.asciz	"_FOSC"
-	.4byte	0x2fd
+	.4byte	0x340
 	.asciz	"_FWDT"
-	.4byte	0x312
+	.4byte	0x355
 	.asciz	"_FICD"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0xe
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x328
+	.4byte	0x36b
 	.4byte	0x0
 	.section	.debug_aranges,info
 	.4byte	0x14
